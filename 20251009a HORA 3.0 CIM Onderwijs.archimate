@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="2025109a HORA 3.0 CIM Onderwijs" id="id-3fa9692051d841f6a91b927e2e071faf" version="5.0.0">
+  <folder name="Strategy" id="id-c07304eb3ea04e558c3e052f30dc6068" type="strategy"/>
+  <folder name="Business" id="id-0e0c62b3b03c4ec59aeea463b248f202" type="business">
+    <element xsi:type="archimate:BusinessObject" name="Assessment component (specification)" id="id-f373d2ec7e4a4c0e8d5cefb3467e2342" profiles="id-e0f438c59954414cba38ae42d54268d9">
+      <documentation>EN: The specification of the part of a course unit that determines which competences the student has acquired, leading to a summative assessment.
+
+NL: De specificatie van het deel van een onderwijseenheid waarmee wordt vastgesteld over welke competenties de student beschikt, leidend tot een summatieve beoordeling.</documentation>
+      <property key="Nederlandse naam" value="Toetsonderdeel(-specificatie)"/>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="Learning component (specification)" id="id-190c4f52b63f466e8f039cffd98ea261" profiles="id-e0f438c59954414cba38ae42d54268d9">
+      <documentation>EN: The specification of the part of a course that enables the student to acquire competences.
+
+NL: De specificatie van het deel van een onderwijseenheid waarmee de student competenties kan verwerven.</documentation>
+      <property key="Nederlandse naam" value="Leeronderdeel(-specificatie)"/>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="Course (specification)" id="id-b44b208c2bd343b293c608ee6663e3d6" profiles="id-e0f438c59954414cba38ae42d54268d9">
+      <documentation>EN: The specification of the fundamental unit in which education is designed and offered, in the form of a coherent system of one or more (intended) learning outcomes, learning components or assessment components.
+
+NL: De specificatie van de fundamentele eenheid waarin onderwijs wordt ontworpen en aangeboden, in de vorm van een samenhangend stelsel van één of meer (beoogde) leeruitkomsten, leeronderdelen of toetsonderdelen.</documentation>
+      <property key="Nederlandse naam" value="Onderwijseenheid(-specificatie)"/>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="Programme (specification)" id="id-8c15f665c7644dd58cfcf807a8babc76" profiles="id-e0f438c59954414cba38ae42d54268d9">
+      <documentation>EN: The specification of a coherent collection of one or more (sub)programmes, learning outcomes or courses developed by the education provider.
+
+NL: De specificatie van een door de onderwijsaanbieder ontwikkelde samenhangende verzameling van één of meer (deel)programma’s, leeruitkomsten of onderwijseenheden.</documentation>
+      <property key="Nederlandse naam" value="Programma(-specificatie)"/>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="Credit point" id="id-1f2e01d154854bdb810d1ef5b5bb756f" profiles="id-e0f438c59954414cba38ae42d54268d9">
+      <documentation>EN: An assessment of the effort required of the student to complete a programme or course, based on the time that an average student would need to spend on it, according to the education provider, in order to achieve a satisfactory programme or course result.
+
+NL: Een waardering van de inspanning die de uitvoering van een programma of onderwijseenheid vraagt van de student, gebaseerd op de tijd die een gemiddelde student er volgens de onderwijsaanbieder aan zou moeten besteden om een voldoende programma- of onderwijseenheidresultaat te behalen.</documentation>
+      <property key="Nederlandse naam" value="Studiepunt"/>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="(Intended) learning outcome" id="id-98f502ae1dc147fba93d79ee181be6cf" profiles="id-e0f438c59954414cba38ae42d54268d9">
+      <documentation>EN: The description of competencies that the student should ideally possess after completing a programme or course.
+
+NL: De beschrijving van competenties waarover de student idealiter beschikt na het afronden van een programma of onderwijseenheid.</documentation>
+      <property key="Nederlandse naam" value="(Beoogde) leeruitkomst"/>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="Unit of learning outcomes (specification)" id="id-f4b77ec47d244db68914129110d65b0c" profiles="id-e0f438c59954414cba38ae42d54268d9">
+      <documentation>EN: A course without learning and assessment components that is specified by (intended) learning outcomes.
+
+NL: Een onderwijseenheid zonder leer- en toetsonderdelen die wordt gespecificeerd door (beoogde) leeruitkomsten.</documentation>
+      <property key="Nederlandse naam" value="Eenheid van leeruitkomsten"/>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="Learning entitlement specification" id="id-c64bc44082fb42be8d98330b215d5d30" profiles="id-e0f438c59954414cba38ae42d54268d9">
+      <documentation>EN: The specification of the rights arising from the successful completion of a course or programme.
+
+NL: De specificatie van de rechten die voortvloeien uit het met een voldoende resultaat afsluiten van een onderwijseenheid of programma.</documentation>
+      <property key="Nederlandse naam" value="Bevoegdheids-specificatie"/>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="Educational programme" id="id-25c5d97fd1734840942b3b0771420720" profiles="id-e0f438c59954414cba38ae42d54268d9">
+      <documentation>EN: A programme established by an educational institution with a status laid down in the WHW.
+
+NL: Een door een onderwijsinstelling vastgesteld programma met een in de WHW vastgelegde status.</documentation>
+      <property key="Nederlandse naam" value="Opleiding"/>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="Admission requirement" id="id-f2c0b9ddec964a5983b04c846f9e6f0d" profiles="id-e0f438c59954414cba38ae42d54268d9">
+      <documentation>EN: The specification of the credentials or competencies that a student must possess in order to be allowed to follow a programme or course.
+
+NL: De specificatie van de credentials of competenties waarover een student dient te beschikken om een programma of onderwijseenheid te mogen volgen.</documentation>
+      <property key="Nederlandse naam" value="Toelatingseis"/>
+    </element>
+  </folder>
+  <folder name="Application" id="id-a9b2e8ce0f0240208795cf59ce6f6e92" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-740f1cbd933544b9b5d529291c363b30" type="technology"/>
+  <folder name="Motivation" id="id-98ebc253051d4701a9902078e1d6c628" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-e503abb586da46b1b93b95b3f4f4a403" type="implementation_migration"/>
+  <folder name="Other" id="id-eda5b4bd5c5a422e963218d10bb8f206" type="other">
+    <element xsi:type="archimate:Grouping" name="Education specification" id="id-a27b8ffbe70145c0bf38c259b1158faa">
+      <property key="Nederlandse naam" value="Onderwijsspecificatie"/>
+    </element>
+    <element xsi:type="archimate:Grouping" name="Education offerings" id="id-aecb01410b534c9f8798b2c254d3c94d">
+      <property key="Nederlandse naam" value="Onderwijsaanbod"/>
+    </element>
+    <element xsi:type="archimate:Grouping" name="Offering association" id="id-5f37b6baf3cc4b9ca30c2d76ca120c7d">
+      <property key="Nederlandse naam" value="Onderwijsverbintenis"/>
+    </element>
+  </folder>
+  <folder name="Relations" id="id-d522b9f2e255472a9d73c10ccc43dd37" type="relations">
+    <element xsi:type="archimate:AssociationRelationship" id="id-12e47f7507384f378f81b2244003dfec" source="id-b44b208c2bd343b293c608ee6663e3d6" target="id-f373d2ec7e4a4c0e8d5cefb3467e2342">
+      <documentation>EN: A course does not have to contain an assessment component, but an assessment component must belong to at least one course.
+An assessment component (specification) is always related to a course (specification): an assessment always has a reference point in the form of a course: what is being taught (the learning component specification) and/or learning outcomes; elements are related to each other within the course.
+The model allows a student not to follow the learning component, but to follow the assessment component.
+
+NL: Een onderwijseenheid hoeft geen toetsonderdeel te bevatten, maar een toetsonderdeel hoort wel minimaal bij één onderwijseenheid.
+Een toetsonderdeel(specificatie) is altijd gerelateerd aan onderwijseenheid(specificatie): een toets heeft altijd een referentiepunt in de vorm van een onderwijseenheid: dat wat geleerd wordt (de leeronderdeelspecificatie) en/of leeruitkomsten; in de onderwijseenheid worden elementen aan elkaar gerelateerd.
+Het model staat toe dat een student niet het leeronderdeel volgt, maar wel het toetsonderdeel.</documentation>
+    </element>
+    <element xsi:type="archimate:AggregationRelationship" id="id-afe11d84dcc545798f96cb8bcce36298" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-f373d2ec7e4a4c0e8d5cefb3467e2342"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-34bf7df46c474d0388ef170e0bd82edf" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-190c4f52b63f466e8f039cffd98ea261"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-a7bc14b5dce84927ac66b72b59443963" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-b44b208c2bd343b293c608ee6663e3d6"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-e359c4bc735546759d831b248cf14c43" source="id-b44b208c2bd343b293c608ee6663e3d6" target="id-190c4f52b63f466e8f039cffd98ea261">
+      <documentation>EN: A course does not necessarily have to contain learning components. A learning component may exist independently of a course if it concerns non-formal education (refresher courses, MOOCs, HOVO).
+
+NL: Een onderwijseenheid hoeft geen leeronderdelen te bevatten. Een leeronderdeel kan los van een onderwijseenheid bestaan indien het non-formeel onderwijs betreft (bijspijkercursussen, MOOC's, HOVO).</documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" id="id-0f8701c4a5474cdd8b1676e48929aff8" source="id-190c4f52b63f466e8f039cffd98ea261" target="id-190c4f52b63f466e8f039cffd98ea261">
+      <documentation>EN: A learning component may consist of smaller parts or be part of a composite learning component.
+
+NL: Een leeronderdeel kan uit kleinere onderdelen bestaan of deel zijn van een samengesteld leeronderdeel.</documentation>
+    </element>
+    <element xsi:type="archimate:AggregationRelationship" id="id-8e72354a62594ab5bffaa72a7d38bf84" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-8c15f665c7644dd58cfcf807a8babc76"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-de798bc1e7de42bc96cb011dcd324a11" source="id-8c15f665c7644dd58cfcf807a8babc76" target="id-b44b208c2bd343b293c608ee6663e3d6">
+      <documentation>EN: A course unit can be developed without being part of a programme and can be included in multiple programmes.
+A programme that does not contain course units can be defined by learning outcomes or credit points. Such a programme allows students to choose course units themselves in order to achieve the programme's learning outcomes or credits. 
+If a programme does not contain any educational units, it must have learning outcomes or credits that define how the programme can be “filled” with educational units.
+In the conceptual information model, it is not possible to model this “business rule” with mere relationships and cardinality. The application rule below overcomes this limitation of the conceptual information model.
+
+NL: Een onderwijseenheid kan worden ontwikkeld zonder dat het deel uitmaakt van een programma, en kan in meerdere programma's zijn opgenomen.
+Een programma dat geen onderwijseenheden bevat kan eventueel gedefinieerd worden door leeruitkomsten of studiepunten. Een dergelijk programma geeft een student de mogelijkheid om zelf onderwijseenheden te kiezen waarmee de leeruitkomsten of studiepunten van het programma behaald kunnen worden. 
+Indien een programma geen onderwijseenheden bevat, moet het wel leeruitkomsten of studiepunten hebben waarmee wordt ingekaderd hoe het programma kan worden 'gevuld' met onderwijseenheden.
+In het conceptuele informatiemodel is het niet mogelijk om deze 'bedrijfsregel' met louter relaties en kardinaliteit te modelleren. Met de toepassingsregel hieronder wordt deze beperking van het conceptuele informatiemodel ondervangen.</documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" id="id-3d61919c9c6a4a688e3ca80521152cf2" source="id-f373d2ec7e4a4c0e8d5cefb3467e2342" target="id-f373d2ec7e4a4c0e8d5cefb3467e2342">
+      <documentation>EN: An assessment component may consist of smaller parts or be part of a composite assessment component.
+
+NL: Een toetsonderdeel kan uit kleinere onderdelen bestaan of deel zijn van een samengesteld toetsonderdeel.</documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" id="id-32a55dc4ff974712b0bd3c193b670771" source="id-8c15f665c7644dd58cfcf807a8babc76" target="id-8c15f665c7644dd58cfcf807a8babc76">
+      <documentation>EN:A programme is a recursive object. It can consist of (sub)programmes or be part of an overarching programme itself.
+
+NL: Een programma is een recursief object. Het kan bestaan uit (deel)programma's of zelf deel zijn van een overkoepelend programma.</documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" id="id-a0764b5f5e9d42b1a5ef9000770007ce" source="id-1f2e01d154854bdb810d1ef5b5bb756f" target="id-1f2e01d154854bdb810d1ef5b5bb756f"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-edc9efccaa194e658e6488d5bc1619f8" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-1f2e01d154854bdb810d1ef5b5bb756f"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-b60f65b9a5b644bf8927600582ff2ec0" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-98f502ae1dc147fba93d79ee181be6cf"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-aff45c23f3494f44b30ffead22db015e" source="id-98f502ae1dc147fba93d79ee181be6cf" target="id-98f502ae1dc147fba93d79ee181be6cf">
+      <documentation>EN:A learning outcome can be broken down into more specific learning outcomes, or conversely be part of a more general learning outcome.
+
+NL: Een leeruitkomst kan worden uitgewerkt in meer specifieke leeruitkomsten, of omgekeerd deel zijn van een meer algemene leeruitkomst.</documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" id="id-efeaea5218684e4c823d0a7b6ea8e26f" source="id-98f502ae1dc147fba93d79ee181be6cf" target="id-8c15f665c7644dd58cfcf807a8babc76">
+      <documentation>EN: A programme may have learning outcomes, but it does not have to. Learning outcomes do not have to be linked to a programme or course.
+A learning outcome may relate to a programme. 
+
+NL: Een programma kan maar hoeft geen leeruitkomsten te hebben. Leeruitkomsten hoeven niet aan een programma of onderwijseenheid te zijn verbonden.
+Een leeruitkomst kan betrekking hebben op een programma.</documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" id="id-b9e7831abdfb4fac9b9f336fcad39904" source="id-98f502ae1dc147fba93d79ee181be6cf" target="id-b44b208c2bd343b293c608ee6663e3d6">
+      <documentation>EN: A course may or may not have learning outcomes. Learning outcomes do not have to be linked to a course.
+The collection of learning outcomes for acourse is the connecting element between the learning component and the assessment component; at the same time, it specifies which competences are to be learned and assessed within the framework of the course (constructive alignment).
+
+NL: Een onderwijseenheid kan maar hoeft geen leeruitkomsten te hebben. Leeruitkomsten hoeven niet aan een onderwijseenheid te zijn verbonden.
+De verzameling leeruitkomsten van een onderwijseenheid is het verbindende element tussen de leercomponent en de toetscomponent, ze specificeert tegelijkertijd welke competenties er geleerd en getoetst worden in het kader van de onderwijseenheid (constructive alignment).
+</documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" id="id-c0ab9224d2ff4c87b8460f8403efa087" source="id-98f502ae1dc147fba93d79ee181be6cf" target="id-190c4f52b63f466e8f039cffd98ea261">
+      <documentation>EN: A learning component may have learning outcomes.
+
+NL: Een leeronderdeel kan leeruitkomsten hebben.</documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" id="id-54ecae0cadd64906909d7c6a13f79fa3" source="id-98f502ae1dc147fba93d79ee181be6cf" target="id-f373d2ec7e4a4c0e8d5cefb3467e2342">
+      <documentation>EN: An assessment component may have learning outcomes.
+
+NL: Een toetsonderdeel kan leeruitkomsten hebben.</documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" id="id-a3153c7e4361475d804543535da754fc" source="id-1f2e01d154854bdb810d1ef5b5bb756f" target="id-8c15f665c7644dd58cfcf807a8babc76">
+      <documentation>EN: Credit point may be awarded for a programme.
+
+NL: Aan een programma kunnen studiepunten worden toegekend.</documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" id="id-09372bbb71934bb9b54424d4b4012702" source="id-1f2e01d154854bdb810d1ef5b5bb756f" target="id-b44b208c2bd343b293c608ee6663e3d6">
+      <documentation>EN: Credit point may be awarded for a course.
+
+NL: Aan een onderwijseenheid kunnen studiepunten worden toegekend.</documentation>
+    </element>
+    <element xsi:type="archimate:AggregationRelationship" id="id-348f43ddab574a5ba8086f909daae8be" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-f4b77ec47d244db68914129110d65b0c"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-bcaf5297eb554decaf8a515c81283ac7" source="id-f4b77ec47d244db68914129110d65b0c" target="id-b44b208c2bd343b293c608ee6663e3d6">
+      <documentation>EN: In the event that a course does not contain learning and assessment components and only has learning outcomes (whether or not combined with credit points), we refer to it as a unit of learning outcomes. A unit of learning outcomes is a specialisation of a course.
+
+NL: In het geval dat een onderwijseenheid geen leer- en toetsonderdelen bevat en alleen leeruitkomsten heeft (al dan niet gecombineerd met studiepunten) spreken we over een eenheid van leeruitkomsten. Een eenheid van leeruitkomsten is een specialisatie van een onderwijseenheid.</documentation>
+    </element>
+    <element xsi:type="archimate:AggregationRelationship" id="id-0c860abb9b2549119fdf879e2091a8f1" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-c64bc44082fb42be8d98330b215d5d30"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-b9b9212fb9a2466a9211cda7b68650fc" source="id-b44b208c2bd343b293c608ee6663e3d6" target="id-c64bc44082fb42be8d98330b215d5d30">
+      <documentation>EN: A learning entitlement specification can be part of a course (specification). In healthcare, for example, skills are taught and assessed at the course level in order to be able and allowed to perform medical procedures (EPAs - entrustable professional activities; this concept focuses on tasks and responsibilities).
+
+NL: Een bevoegdheidsspecificatie kan onderdeel zijn van een onderwijseenheid(specificatie). In de gezondheidszorg worden bijvoorbeeld op onderwijseenheidsniveau vaardigheden aangeleerd en getoetst om medische handelingen te kunnen en mogen verrichten (EPA's - entrustable professional activities; dit concept richt zich op taken en verantwoordelijkheden).</documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" id="id-64ba88d5c179424b83e8ff3244805dc3" source="id-c64bc44082fb42be8d98330b215d5d30" target="id-8c15f665c7644dd58cfcf807a8babc76">
+      <documentation>EN: A learning entitlement specification may be part of a programme (specification).
+
+NL: Een bevoegdheidsspecificatie kan onderdeel zijn van een programma(specificatie).</documentation>
+    </element>
+    <element xsi:type="archimate:AggregationRelationship" id="id-7323abd72edc4130becd99cabfe1b25d" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-25c5d97fd1734840942b3b0771420720"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-632b6117fd274614b291a9f2500add14" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-f2c0b9ddec964a5983b04c846f9e6f0d"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-e0c1ff5ec579441e97c3f78467e40676" source="id-25c5d97fd1734840942b3b0771420720" target="id-8c15f665c7644dd58cfcf807a8babc76">
+      <documentation>EN: An educational programme is a specialisation of a programme.
+
+NL: Een opleiding is een specialisatie van een programma.</documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" id="id-7951054280ba4485a80d4e0fdb36dfd8" source="id-f2c0b9ddec964a5983b04c846f9e6f0d" target="id-8c15f665c7644dd58cfcf807a8babc76">
+      <documentation>EN: A programme may have admission requirements. Students may be required to meet certain requirements in order to participate in a programme. 
+
+NL: Een programma kan toelatingseisen hebben. Er kunnen eisen aan een student worden gesteld om aan een programma te mogen deelnemen. </documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" id="id-ffb018f0d88a4b3aae2a586ab846a02d" source="id-f2c0b9ddec964a5983b04c846f9e6f0d" target="id-b44b208c2bd343b293c608ee6663e3d6">
+      <documentation>EN: A course may have admission requirements.
+
+NL: Een onderwijseenheid kan toelatingseisen hebben.</documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" id="id-cd11d8c3bddd4eeab14bce37310e0769" source="id-f2c0b9ddec964a5983b04c846f9e6f0d" target="id-98f502ae1dc147fba93d79ee181be6cf">
+      <documentation>EN: An admission requirement may be described in terms of learning outcomes.
+
+NL: Een toelatingseis kan zijn beschreven in de vorm van leeruitkomsten.</documentation>
+    </element>
+  </folder>
+  <folder name="Views" id="id-3ba436948c954190b70d393496915a5c" type="diagrams">
+    <folder name="English" id="id-f5e80381290c4000bda8d17dbd6b1d41">
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Conceptual Information Model Education EN" id="id-a823aa4965f04abb86376c3299f850c4" viewpoint="information_structure">
+        <child xsi:type="archimate:DiagramObject" id="id-346dd5dd5ea4451fb91e00456f3931b6" font="1|Lucida Grande|12.0|1|COCOA|1|LucidaGrande-Bold" textAlignment="1" fillColor="#8df900" alpha="15" archimateElement="id-a27b8ffbe70145c0bf38c259b1158faa">
+          <bounds x="-180" width="2257" height="637"/>
+          <feature name="lineStyle" value="0"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-8fe8dd0dc79945e38eb8f6d5a41ea637" source="id-346dd5dd5ea4451fb91e00456f3931b6" target="id-b3bf484c57f147d184b1386c09b031fc" archimateRelationship="id-afe11d84dcc545798f96cb8bcce36298"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-04969b37ac7d4bcf9964c322a77dd4af" source="id-346dd5dd5ea4451fb91e00456f3931b6" target="id-9f199eef602249138afd73c4aba87cfa" archimateRelationship="id-34bf7df46c474d0388ef170e0bd82edf"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-c3dcedba04ea447cb93f612af39e2050" source="id-346dd5dd5ea4451fb91e00456f3931b6" target="id-68d65af0c1b143048b4b2f1ecbea0195" archimateRelationship="id-a7bc14b5dce84927ac66b72b59443963"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-f0d121391afe408fb7d9a884ab2505fc" source="id-346dd5dd5ea4451fb91e00456f3931b6" target="id-d21c41fd20e145738b628610a56195e4" archimateRelationship="id-8e72354a62594ab5bffaa72a7d38bf84"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9a3e528cd05b48f9a8f84a02749b47c6" source="id-346dd5dd5ea4451fb91e00456f3931b6" target="id-66aaaa34b545480996ff691c2f35f5f0" archimateRelationship="id-edc9efccaa194e658e6488d5bc1619f8"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-4112418a48f34c60b7ccbfa4b8636bb5" source="id-346dd5dd5ea4451fb91e00456f3931b6" target="id-0357e611900e43b99c0e010823c5b4fa" archimateRelationship="id-b60f65b9a5b644bf8927600582ff2ec0"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-433ec2e597664bf4b547ffd984335dd1" source="id-346dd5dd5ea4451fb91e00456f3931b6" target="id-a6350fabac9942bc8c232bb6989760b2" archimateRelationship="id-348f43ddab574a5ba8086f909daae8be"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-6b3a3135837949a695d92972786f66a9" source="id-346dd5dd5ea4451fb91e00456f3931b6" target="id-159548439b954f49a6cc77d1f0f7d9b7" archimateRelationship="id-7323abd72edc4130becd99cabfe1b25d"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-97659ff92eef4692a72901fb514380dd" source="id-346dd5dd5ea4451fb91e00456f3931b6" target="id-14d9866d5e744c1794aca76ac4c3e4fb" archimateRelationship="id-632b6117fd274614b291a9f2500add14"/>
+          <child xsi:type="archimate:DiagramObject" id="id-b3bf484c57f147d184b1386c09b031fc" targetConnections="id-8fe8dd0dc79945e38eb8f6d5a41ea637 id-93bb2750b382477a9546598d9574032f id-87e63e58130d49da86de2f16f8c9884f id-aaa56d7431bf47f982e063d33412044d" textPosition="1" archimateElement="id-f373d2ec7e4a4c0e8d5cefb3467e2342">
+            <bounds x="1944" y="528" width="169" height="85"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-87e63e58130d49da86de2f16f8c9884f" source="id-b3bf484c57f147d184b1386c09b031fc" target="id-b3bf484c57f147d184b1386c09b031fc" archimateRelationship="id-3d61919c9c6a4a688e3ca80521152cf2">
+              <bendpoint startX="72" startY="-66" endX="72" endY="-66"/>
+              <bendpoint startX="144" startY="-66" endX="144" endY="-66"/>
+              <bendpoint startX="216" startY="-66" endX="216" endY="-66"/>
+              <bendpoint startX="216" startY="-30" endX="216" endY="-30"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:Note" id="id-c489a2670bec4c09b05bfc1786d06f24" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1819" y="528" width="97" height="28"/>
+            <content>→ has (0..n)</content>
+            <property key="Nederlandse naam" value="→ heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-65eba1b33e834016b1fabb6baba6aaa2" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1800" y="554" width="135" height="33"/>
+            <content>← is part of (1..n)</content>
+            <property key="Nederlandse naam" value="← is deel van (1..n)"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-9f199eef602249138afd73c4aba87cfa" targetConnections="id-04969b37ac7d4bcf9964c322a77dd4af id-f71cff7d03774435871156a162abf13f id-435ddfd2b6b045d69437140927ef2e20 id-5bca43d996924ce492920018f2742c36" textPosition="1" archimateElement="id-190c4f52b63f466e8f039cffd98ea261">
+            <bounds x="1632" y="360" width="169" height="85"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-435ddfd2b6b045d69437140927ef2e20" source="id-9f199eef602249138afd73c4aba87cfa" target="id-9f199eef602249138afd73c4aba87cfa" archimateRelationship="id-0f8701c4a5474cdd8b1676e48929aff8">
+              <bendpoint startX="-180" startY="-30" endX="-180" endY="-30"/>
+              <bendpoint startX="-180" startY="-68" endX="-180" endY="-68"/>
+              <bendpoint startX="-36" startY="-68" endX="-36" endY="-68"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-68d65af0c1b143048b4b2f1ecbea0195" targetConnections="id-c3dcedba04ea447cb93f612af39e2050 id-93b8ae5ffe974f6895947f4ffc799ece id-78890e53cce6475c81a375534f6d6a99 id-c3c1b189252e496c97f2e441c8c92f0a id-f5d7f1f52ecf4328bbf144649c316e83 id-a9bcb44a2220404b9832466e86e26ecc" textPosition="1" archimateElement="id-b44b208c2bd343b293c608ee6663e3d6">
+            <bounds x="1236" y="192" width="169" height="85"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-f71cff7d03774435871156a162abf13f" source="id-68d65af0c1b143048b4b2f1ecbea0195" target="id-9f199eef602249138afd73c4aba87cfa" archimateRelationship="id-e359c4bc735546759d831b248cf14c43">
+              <bendpoint startX="72" startY="163" endX="-324" endY="-5"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-93bb2750b382477a9546598d9574032f" source="id-68d65af0c1b143048b4b2f1ecbea0195" target="id-b3bf484c57f147d184b1386c09b031fc" archimateRelationship="id-12e47f7507384f378f81b2244003dfec">
+              <bendpoint startX="72" startY="319" endX="-636" endY="-17"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-4bce80166248423e8cb6fe7a2244d0d0" source="id-68d65af0c1b143048b4b2f1ecbea0195" target="id-2b444764913b47faa1d35d046c43f539" archimateRelationship="id-b9b9212fb9a2466a9211cda7b68650fc">
+              <bendpoint startX="216" startY="-29" endX="48" endY="379"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:Note" id="id-0b07ef4d4a1c4193b210d1fe6d98bc6d" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1507" y="370" width="97" height="28"/>
+            <content>→ has (0..n)</content>
+            <property key="Nederlandse naam" value="→ heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-15e3b566241243f0b1a89e20eb124b56" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1488" y="396" width="135" height="33"/>
+            <content>← is part of (0..n)</content>
+            <property key="Nederlandse naam" value="← is deel van (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-a1dcd283cd6542b9a7ea249887e51932" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1536" y="336" width="127" height="22"/>
+            <content>→ consists of (0..n)</content>
+            <property key="Nederlandse naam" value="→ bestaat uit (0..n)"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-d21c41fd20e145738b628610a56195e4" targetConnections="id-f0d121391afe408fb7d9a884ab2505fc id-66885bbed0244d22b2ff22a665e53ac7 id-c02c2958aba245f8b3b2f77a23ebdc8e id-283f3defb3884c87984b5673c24169bf id-3c558c055d874fd4b8fcf94a4624a082 id-5d3f93d5b9f245089bd3f7c2003cc784 id-8a19513dec6c4fd4b5c47d23ae5b2b45" textPosition="1" archimateElement="id-8c15f665c7644dd58cfcf807a8babc76">
+            <bounds x="924" y="24" width="169" height="85"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-93b8ae5ffe974f6895947f4ffc799ece" source="id-d21c41fd20e145738b628610a56195e4" target="id-68d65af0c1b143048b4b2f1ecbea0195" archimateRelationship="id-de798bc1e7de42bc96cb011dcd324a11">
+              <bendpoint startX="36" startY="174" endX="-276" endY="6"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-66885bbed0244d22b2ff22a665e53ac7" source="id-d21c41fd20e145738b628610a56195e4" target="id-d21c41fd20e145738b628610a56195e4" archimateRelationship="id-32a55dc4ff974712b0bd3c193b670771">
+              <bendpoint startX="-72" startY="54" endX="-72" endY="54"/>
+              <bendpoint startX="-216" startY="54" endX="-216" endY="54"/>
+              <bendpoint startX="-216" startY="18" endX="-216" endY="18"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:Note" id="id-1b58801ac3cb41daa540964ce26de17b" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1082" y="213" width="145" height="28"/>
+            <content>→ consists of (0..n)</content>
+            <property key="Nederlandse naam" value="→ bestaat uit (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-a51aee6735ce44428bc6dc5cdace0548" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1087" y="236" width="135" height="33"/>
+            <content>← is part of (0..n)</content>
+            <property key="Nederlandse naam" value="← is deel van (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-ea3e74282ffa47eaa07143b5930944d2" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="2112" y="507" width="127" height="22"/>
+            <content>→ consists of (0..n)</content>
+            <property key="Nederlandse naam" value="→ bestaat uit (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-904135e8ea6847ce9e706cbe2eb9ee45" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="798" y="87" width="127" height="22"/>
+            <content>→ consists of (0..n)</content>
+            <property key="Nederlandse naam" value="→ bestaat uit (0..n)"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-66aaaa34b545480996ff691c2f35f5f0" targetConnections="id-9a3e528cd05b48f9a8f84a02749b47c6" textPosition="1" archimateElement="id-1f2e01d154854bdb810d1ef5b5bb756f">
+            <bounds x="516" y="528" width="169" height="85"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-283f3defb3884c87984b5673c24169bf" source="id-66aaaa34b545480996ff691c2f35f5f0" target="id-d21c41fd20e145738b628610a56195e4" archimateRelationship="id-a3153c7e4361475d804543535da754fc">
+              <bendpoint startX="408" startY="-18" endY="486"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-c3c1b189252e496c97f2e441c8c92f0a" source="id-66aaaa34b545480996ff691c2f35f5f0" target="id-68d65af0c1b143048b4b2f1ecbea0195" archimateRelationship="id-09372bbb71934bb9b54424d4b4012702">
+              <bendpoint startX="672" startY="18" endX="-48" endY="354"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-0357e611900e43b99c0e010823c5b4fa" targetConnections="id-4112418a48f34c60b7ccbfa4b8636bb5 id-1e4ac26b7302483b9fdeecf60504bb4a id-00883372453141c684053ed0f3d40423" textPosition="1" archimateElement="id-98f502ae1dc147fba93d79ee181be6cf">
+            <bounds x="516" y="370" width="169" height="85"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-1e4ac26b7302483b9fdeecf60504bb4a" source="id-0357e611900e43b99c0e010823c5b4fa" target="id-0357e611900e43b99c0e010823c5b4fa" archimateRelationship="id-aff45c23f3494f44b30ffead22db015e">
+              <bendpoint startX="-192" startY="-30" endX="-192" endY="-30"/>
+              <bendpoint startX="-192" startY="-76" endX="-192" endY="-76"/>
+              <bendpoint startX="-60" startY="-76" endX="-60" endY="-76"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-c02c2958aba245f8b3b2f77a23ebdc8e" source="id-0357e611900e43b99c0e010823c5b4fa" target="id-d21c41fd20e145738b628610a56195e4" archimateRelationship="id-efeaea5218684e4c823d0a7b6ea8e26f">
+              <bendpoint startX="384" startY="-28" endX="-24" endY="318"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-78890e53cce6475c81a375534f6d6a99" source="id-0357e611900e43b99c0e010823c5b4fa" target="id-68d65af0c1b143048b4b2f1ecbea0195" archimateRelationship="id-b9e7831abdfb4fac9b9f336fcad39904">
+              <bendpoint startX="648" startY="4" endX="-72" endY="172"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-5bca43d996924ce492920018f2742c36" lineColor="#000000" source="id-0357e611900e43b99c0e010823c5b4fa" target="id-9f199eef602249138afd73c4aba87cfa" archimateRelationship="id-c0ab9224d2ff4c87b8460f8403efa087">
+              <bendpoint startX="552" startY="20" endX="-564" endY="31"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-aaa56d7431bf47f982e063d33412044d" source="id-0357e611900e43b99c0e010823c5b4fa" target="id-b3bf484c57f147d184b1386c09b031fc" archimateRelationship="id-54ecae0cadd64906909d7c6a13f79fa3">
+              <bendpoint startX="732" startY="20" endX="-696" endY="-137"/>
+              <bendpoint startX="732" startY="176" endX="-696" endY="19"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:Note" id="id-f29b4dc91f5e4854974de47fbd442a16" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="727" y="360" width="145" height="28"/>
+            <content>→ belongs to (0..n)</content>
+            <property key="Nederlandse naam" value="→ hoort bij (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-8eca92c4bc9c448d81e8e0d02aa9b1fd" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="744" y="379" width="135" height="33"/>
+            <content>← has (0..n)</content>
+            <property key="Nederlandse naam" value="← heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-3f3d4826b99f49e98951fd7c5c70790f" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1027" y="389" width="145" height="28"/>
+            <content>→ is part of (0..n)</content>
+            <property key="Nederlandse naam" value="→ hoort bij (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-6d4ead170d5544a2b96d175f1dc160d3" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1044" y="408" width="135" height="33"/>
+            <content>← has (0..n)</content>
+            <property key="Nederlandse naam" value="← heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-0cad1ae1b06a436b8b95ae7b803947ce" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1142" y="408" width="145" height="28"/>
+            <content>→ belongs to (0..n)</content>
+            <property key="Nederlandse naam" value="→ hoort bij (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-9370708e96f8488c9fec5bb2d58d2aed" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1152" y="428" width="135" height="33"/>
+            <content>← has (0..n)</content>
+            <property key="Nederlandse naam" value="← heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-282d254eafd94b31a013596431e712e1" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="710" y="528" width="145" height="28"/>
+            <content>→ is assigned to (0..n)</content>
+            <property key="Nederlandse naam" value="→ is toegekend aan (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-0610466b3e614e79bf678af3b985ab45" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="720" y="548" width="135" height="33"/>
+            <content>← has (0..n)</content>
+            <property key="Nederlandse naam" value="← heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-a42a993d4c884a46a967de6105a166b3" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="854" y="566" width="145" height="28"/>
+            <content>→ is assigned to (0..n)</content>
+            <property key="Nederlandse naam" value="→ is toegekend aan (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-eb78e9d4b6c74372bc5c7f9f4cd18448" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="864" y="586" width="135" height="33"/>
+            <content>← has (0..n)</content>
+            <property key="Nederlandse naam" value="← heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-0c29705006534292ba9e31fee6d96594" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="408" y="336" width="127" height="22"/>
+            <content>→ consists of (0..n)</content>
+            <property key="Nederlandse naam" value="→ bestaat uit (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-1ab0e17906d44fa0b1b3bdd50bcd363d" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1608" y="117" width="89" height="28"/>
+            <content>→ is (0..1)</content>
+            <property key="Nederlandse naam" value="→ is (0..1)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-03638c74ea23415bb82227f4a5d6ce38" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1608" y="144" width="89" height="33"/>
+            <content>← is (1..1)</content>
+            <property key="Nederlandse naam" value="← is (1..1)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-be55dde7847b4ff4b9860c5f5e588785" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1183" y="34" width="97" height="28"/>
+            <content>→ has (0..n)</content>
+            <property key="Nederlandse naam" value="→ heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-b7d4c77afcd6452c9de779c774a5b06a" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1164" y="60" width="135" height="33"/>
+            <content>← is part of (0..n)</content>
+            <property key="Nederlandse naam" value="← is deel van (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-50bb4ddc24c54196acfe595b1948162c" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1416" y="180" width="97" height="28"/>
+            <content>→ has (0..n)</content>
+            <property key="Nederlandse naam" value="→ heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-5d1e05dc962a4fc68f6ba0ed4ba1be41" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1411" y="204" width="135" height="33"/>
+            <content>← is part of (0..n)</content>
+            <property key="Nederlandse naam" value="← is deel van (0..n)"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-a6350fabac9942bc8c232bb6989760b2" targetConnections="id-433ec2e597664bf4b547ffd984335dd1" textPosition="1" archimateElement="id-f4b77ec47d244db68914129110d65b0c">
+            <bounds x="1680" y="108" width="169" height="85"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-f5d7f1f52ecf4328bbf144649c316e83" source="id-a6350fabac9942bc8c232bb6989760b2" target="id-68d65af0c1b143048b4b2f1ecbea0195" archimateRelationship="id-bcaf5297eb554decaf8a515c81283ac7">
+              <bendpoint startX="-156" startY="-5" endX="288" endY="-89"/>
+              <bendpoint startX="-156" startY="91" endX="288" endY="7"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-159548439b954f49a6cc77d1f0f7d9b7" targetConnections="id-6b3a3135837949a695d92972786f66a9" textPosition="1" archimateElement="id-25c5d97fd1734840942b3b0771420720">
+            <bounds x="24" y="24" width="169" height="85"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-5d3f93d5b9f245089bd3f7c2003cc784" source="id-159548439b954f49a6cc77d1f0f7d9b7" target="id-d21c41fd20e145738b628610a56195e4" archimateRelationship="id-e0c1ff5ec579441e97c3f78467e40676"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-14d9866d5e744c1794aca76ac4c3e4fb" targetConnections="id-97659ff92eef4692a72901fb514380dd" textPosition="1" archimateElement="id-f2c0b9ddec964a5983b04c846f9e6f0d">
+            <bounds x="24" y="151" width="169" height="85"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-8a19513dec6c4fd4b5c47d23ae5b2b45" source="id-14d9866d5e744c1794aca76ac4c3e4fb" target="id-d21c41fd20e145738b628610a56195e4" archimateRelationship="id-7951054280ba4485a80d4e0fdb36dfd8">
+              <bendpoint startX="852" startY="-24" endX="-48" endY="103"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-a9bcb44a2220404b9832466e86e26ecc" source="id-14d9866d5e744c1794aca76ac4c3e4fb" target="id-68d65af0c1b143048b4b2f1ecbea0195" archimateRelationship="id-ffb018f0d88a4b3aae2a586ab846a02d"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-00883372453141c684053ed0f3d40423" source="id-14d9866d5e744c1794aca76ac4c3e4fb" target="id-0357e611900e43b99c0e010823c5b4fa" archimateRelationship="id-cd11d8c3bddd4eeab14bce37310e0769">
+              <bendpoint startY="216" endX="-492" endY="-4"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:Note" id="id-5220d68bb42d4e82a465d84b9adf5454" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="479" y="35" width="97" height="28"/>
+            <content>→ is (1..1)</content>
+            <property key="Nederlandse naam" value="→ is (1..1)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-8f2cdbb16ea34018808368083b539f29" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="480" y="62" width="96" height="33"/>
+            <content>← is (0..1)</content>
+            <property key="Nederlandse naam" value="← is (0..1)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-72fb4c8ef0b64726b0fbf762afddfac5" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="443" y="149" width="145" height="28"/>
+            <content>→ belongs to (0..n)</content>
+            <property key="Nederlandse naam" value="→ hoort bij (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-fc1a6027858c49e980947508ed19490c" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="460" y="168" width="135" height="33"/>
+            <content>← has (0..n)</content>
+            <property key="Nederlandse naam" value="← heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-1eb3c376784c45919976ea89161fe70d" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="607" y="191" width="145" height="28"/>
+            <content>→ belongs to (0..n)</content>
+            <property key="Nederlandse naam" value="→ hoort bij (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-0d3bdd891e324b36bc5998c3ce00d171" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="624" y="210" width="135" height="33"/>
+            <content>← has (0..n)</content>
+            <property key="Nederlandse naam" value="← heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-3a7e95006ef04ab19ab216ade73b3e47" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="156" y="382" width="145" height="28"/>
+            <content>→ consists of (0..n)</content>
+            <property key="Nederlandse naam" value="→ bestaat uit (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-34c645e14a474461afac8e849722c8da" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="173" y="401" width="135" height="33"/>
+            <content>← is part of (0..n)</content>
+            <property key="Nederlandse naam" value="← is deel van (0..n)"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-6b8985d2873d4f64bf19e5ff94db1b1f" textAlignment="1" archimateElement="id-aecb01410b534c9f8798b2c254d3c94d">
+          <bounds x="156" y="-1176" width="1909" height="781"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-9f2ef4d0a7914aa396005d20321f93e2" textAlignment="1" archimateElement="id-5f37b6baf3cc4b9ca30c2d76ca120c7d">
+          <bounds x="-1812" y="-960" width="1909" height="781"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-2b444764913b47faa1d35d046c43f539" targetConnections="id-4bce80166248423e8cb6fe7a2244d0d0" textPosition="1" archimateElement="id-c64bc44082fb42be8d98330b215d5d30">
+          <bounds x="1224" y="-216" width="169" height="85"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-3c558c055d874fd4b8fcf94a4624a082" source="id-2b444764913b47faa1d35d046c43f539" target="id-d21c41fd20e145738b628610a56195e4" archimateRelationship="id-64ba88d5c179424b83e8ff3244805dc3">
+            <bendpoint startX="-60" startY="235" endX="420" endY="-5"/>
+          </sourceConnection>
+        </child>
+        <property key="Nederlandse naam" value="Conceptueel informatiemodel onderwijs"/>
+      </element>
+    </folder>
+    <folder name="Nederlands" id="id-0768c4cac5484bdc950f41cda966fa24">
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Conceptueel Informatie Model Onderwijs NL" id="id-b71992b20e164674a9a169d6ed4d3c53" viewpoint="information_structure">
+        <child xsi:type="archimate:DiagramObject" id="id-e5922980289249a29bff467a31f349d8" font="1|Lucida Grande|12.0|1|COCOA|1|LucidaGrande-Bold" textAlignment="1" fillColor="#8df900" alpha="15" archimateElement="id-a27b8ffbe70145c0bf38c259b1158faa">
+          <bounds x="-180" width="2257" height="637"/>
+          <feature name="lineStyle" value="0"/>
+          <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-d655410b77e44ab2b4d7372620165d0f" source="id-e5922980289249a29bff467a31f349d8" target="id-4b35069e5d2246e2901cb4b400843a18" archimateRelationship="id-afe11d84dcc545798f96cb8bcce36298"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-55798048e9264e9fa57b2d18ff741502" source="id-e5922980289249a29bff467a31f349d8" target="id-5f069402729a46d8aa77eeddc0c8a619" archimateRelationship="id-34bf7df46c474d0388ef170e0bd82edf"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9221adfc14bb48d4b1e5c95da00de43a" source="id-e5922980289249a29bff467a31f349d8" target="id-c17dce9c11134e97bb52b01e2e633bca" archimateRelationship="id-a7bc14b5dce84927ac66b72b59443963"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-392cab9ebdb24cc99385348f5c0862c6" source="id-e5922980289249a29bff467a31f349d8" target="id-f88ac6bd783940549c685b4a2c4654f5" archimateRelationship="id-8e72354a62594ab5bffaa72a7d38bf84"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-c6a2a2f4902144c98bfde17d1594c3ec" source="id-e5922980289249a29bff467a31f349d8" target="id-45f2bfc47c81482199edcf28108a8686" archimateRelationship="id-edc9efccaa194e658e6488d5bc1619f8"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-e19ce604910a42279f4f9b7d932496fa" source="id-e5922980289249a29bff467a31f349d8" target="id-3104c30bbb9346a9ae798cbbf34a3c9f" archimateRelationship="id-b60f65b9a5b644bf8927600582ff2ec0"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-7f30fe59553b4c768d86b7e1e92e1239" source="id-e5922980289249a29bff467a31f349d8" target="id-dae41bf5bf7a4757b0cbd04c1083cc50" archimateRelationship="id-348f43ddab574a5ba8086f909daae8be"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-09a3ba8920e3404db8fb7a17600f039b" source="id-e5922980289249a29bff467a31f349d8" target="id-79e0c36a1095484cb606dc6150abd090" archimateRelationship="id-7323abd72edc4130becd99cabfe1b25d"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-1805b424619e4d5ba40931cfb8da842d" source="id-e5922980289249a29bff467a31f349d8" target="id-77940bd51d354bc8a2a75acd3faf49f7" archimateRelationship="id-632b6117fd274614b291a9f2500add14"/>
+          <child xsi:type="archimate:DiagramObject" id="id-4b35069e5d2246e2901cb4b400843a18" targetConnections="id-d655410b77e44ab2b4d7372620165d0f id-99da205fa3f24ac29293cf5fb4174c14 id-8eb30c32a9fe4cd39e2b30c54b5bb4e3 id-54b419b483554ae691a6cf1ccf3ff24c" textPosition="1" archimateElement="id-f373d2ec7e4a4c0e8d5cefb3467e2342">
+            <bounds x="1944" y="528" width="169" height="85"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-8eb30c32a9fe4cd39e2b30c54b5bb4e3" source="id-4b35069e5d2246e2901cb4b400843a18" target="id-4b35069e5d2246e2901cb4b400843a18" archimateRelationship="id-3d61919c9c6a4a688e3ca80521152cf2">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+              <bendpoint startX="72" startY="-66" endX="72" endY="-66"/>
+              <bendpoint startX="144" startY="-66" endX="144" endY="-66"/>
+              <bendpoint startX="216" startY="-66" endX="216" endY="-66"/>
+              <bendpoint startX="216" startY="-30" endX="216" endY="-30"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:Note" id="id-a7075df4a6694090824adf7311106b20" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1819" y="528" width="97" height="28"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ has (0..n)</content>
+            <property key="Nederlandse naam" value="→ heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-795724f968274d1aaba89ff4357e08db" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1800" y="554" width="135" height="33"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>← is part of (1..n)</content>
+            <property key="Nederlandse naam" value="← is deel van (1..n)"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-5f069402729a46d8aa77eeddc0c8a619" targetConnections="id-55798048e9264e9fa57b2d18ff741502 id-2bc0d383e9774a438e4bdcc53304953d id-19deee380c264850b113c20dd635964d id-3f78fd3703de47ccb60c4012196ea0e8" textPosition="1" archimateElement="id-190c4f52b63f466e8f039cffd98ea261">
+            <bounds x="1632" y="360" width="169" height="85"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-19deee380c264850b113c20dd635964d" source="id-5f069402729a46d8aa77eeddc0c8a619" target="id-5f069402729a46d8aa77eeddc0c8a619" archimateRelationship="id-0f8701c4a5474cdd8b1676e48929aff8">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+              <bendpoint startX="-180" startY="-30" endX="-180" endY="-30"/>
+              <bendpoint startX="-180" startY="-68" endX="-180" endY="-68"/>
+              <bendpoint startX="-36" startY="-68" endX="-36" endY="-68"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-c17dce9c11134e97bb52b01e2e633bca" targetConnections="id-9221adfc14bb48d4b1e5c95da00de43a id-74facc18d1e9408e9fd46df3be62417b id-d2455a7f390a4d58ba3d9500fb73ada8 id-47fa12c23f004b6bb7510a1f3bccbe68 id-492479f7bab44c6a91c816b9d6999dd7 id-7c76f9d06ec440afa5968234d73aeba5" textPosition="1" archimateElement="id-b44b208c2bd343b293c608ee6663e3d6">
+            <bounds x="1236" y="192" width="169" height="85"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-2bc0d383e9774a438e4bdcc53304953d" source="id-c17dce9c11134e97bb52b01e2e633bca" target="id-5f069402729a46d8aa77eeddc0c8a619" archimateRelationship="id-e359c4bc735546759d831b248cf14c43">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+              <bendpoint startX="72" startY="163" endX="-324" endY="-5"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-99da205fa3f24ac29293cf5fb4174c14" source="id-c17dce9c11134e97bb52b01e2e633bca" target="id-4b35069e5d2246e2901cb4b400843a18" archimateRelationship="id-12e47f7507384f378f81b2244003dfec">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+              <bendpoint startX="72" startY="319" endX="-636" endY="-17"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-78e36e46f410409d8676c671f05702a9" source="id-c17dce9c11134e97bb52b01e2e633bca" target="id-665d1649a33641b5896d590012523828" archimateRelationship="id-b9b9212fb9a2466a9211cda7b68650fc">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+              <bendpoint startX="216" startY="-29" endX="48" endY="379"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:Note" id="id-fa2e2807ecd44ff2bc52e1cf5cf210ff" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1507" y="370" width="97" height="28"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ has (0..n)</content>
+            <property key="Nederlandse naam" value="→ heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-57557b6ffc7f479a80538987c6d17480" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1488" y="396" width="135" height="33"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>← is part of (0..n)</content>
+            <property key="Nederlandse naam" value="← is deel van (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-58f517b34e644291870632d5b51d3cfe" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1536" y="336" width="127" height="22"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ consists of (0..n)</content>
+            <property key="Nederlandse naam" value="→ bestaat uit (0..n)"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-f88ac6bd783940549c685b4a2c4654f5" targetConnections="id-392cab9ebdb24cc99385348f5c0862c6 id-b4088d169f2c48dc95a925760f8e15f4 id-1394123bbb9941cc9cccb7edbf4fd2f2 id-fa3dc483576347c386ea690ed6c9f933 id-28c2226ab20140ea84ee17e4d6a892b6 id-800b6663b10642c7926a358190b00689 id-04cfaaf65b904656982a9ea71893069f" textPosition="1" archimateElement="id-8c15f665c7644dd58cfcf807a8babc76">
+            <bounds x="924" y="24" width="169" height="85"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-74facc18d1e9408e9fd46df3be62417b" source="id-f88ac6bd783940549c685b4a2c4654f5" target="id-c17dce9c11134e97bb52b01e2e633bca" archimateRelationship="id-de798bc1e7de42bc96cb011dcd324a11">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+              <bendpoint startX="36" startY="174" endX="-276" endY="6"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-b4088d169f2c48dc95a925760f8e15f4" source="id-f88ac6bd783940549c685b4a2c4654f5" target="id-f88ac6bd783940549c685b4a2c4654f5" archimateRelationship="id-32a55dc4ff974712b0bd3c193b670771">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+              <bendpoint startX="-72" startY="54" endX="-72" endY="54"/>
+              <bendpoint startX="-216" startY="54" endX="-216" endY="54"/>
+              <bendpoint startX="-216" startY="18" endX="-216" endY="18"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:Note" id="id-ed77820217db4345bd0e861efa9ec025" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1082" y="213" width="145" height="28"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ consists of (0..n)</content>
+            <property key="Nederlandse naam" value="→ bestaat uit (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-448ffe8e93cd4635ac8afa807c2fc12e" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1087" y="236" width="135" height="33"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>← is part of (0..n)</content>
+            <property key="Nederlandse naam" value="← is deel van (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-cadb7bd6104c4301961f9661c158e577" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="2112" y="507" width="127" height="22"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ consists of (0..n)</content>
+            <property key="Nederlandse naam" value="→ bestaat uit (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-de7ed0fb92ef49cfb02a5a2134636c7d" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="798" y="87" width="127" height="22"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ consists of (0..n)</content>
+            <property key="Nederlandse naam" value="→ bestaat uit (0..n)"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-45f2bfc47c81482199edcf28108a8686" targetConnections="id-c6a2a2f4902144c98bfde17d1594c3ec" textPosition="1" archimateElement="id-1f2e01d154854bdb810d1ef5b5bb756f">
+            <bounds x="516" y="528" width="169" height="85"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-fa3dc483576347c386ea690ed6c9f933" source="id-45f2bfc47c81482199edcf28108a8686" target="id-f88ac6bd783940549c685b4a2c4654f5" archimateRelationship="id-a3153c7e4361475d804543535da754fc">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+              <bendpoint startX="408" startY="-18" endY="486"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-47fa12c23f004b6bb7510a1f3bccbe68" source="id-45f2bfc47c81482199edcf28108a8686" target="id-c17dce9c11134e97bb52b01e2e633bca" archimateRelationship="id-09372bbb71934bb9b54424d4b4012702">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+              <bendpoint startX="672" startY="18" endX="-48" endY="354"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-3104c30bbb9346a9ae798cbbf34a3c9f" targetConnections="id-e19ce604910a42279f4f9b7d932496fa id-6cc4729cd4a347c5b78548644e1e6af4 id-1dc3c883c23b4b57909f8c0972545dbd" textPosition="1" archimateElement="id-98f502ae1dc147fba93d79ee181be6cf">
+            <bounds x="516" y="370" width="169" height="85"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-6cc4729cd4a347c5b78548644e1e6af4" source="id-3104c30bbb9346a9ae798cbbf34a3c9f" target="id-3104c30bbb9346a9ae798cbbf34a3c9f" archimateRelationship="id-aff45c23f3494f44b30ffead22db015e">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+              <bendpoint startX="-192" startY="-30" endX="-192" endY="-30"/>
+              <bendpoint startX="-192" startY="-76" endX="-192" endY="-76"/>
+              <bendpoint startX="-60" startY="-76" endX="-60" endY="-76"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-1394123bbb9941cc9cccb7edbf4fd2f2" source="id-3104c30bbb9346a9ae798cbbf34a3c9f" target="id-f88ac6bd783940549c685b4a2c4654f5" archimateRelationship="id-efeaea5218684e4c823d0a7b6ea8e26f">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+              <bendpoint startX="384" startY="-28" endX="-24" endY="318"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-d2455a7f390a4d58ba3d9500fb73ada8" source="id-3104c30bbb9346a9ae798cbbf34a3c9f" target="id-c17dce9c11134e97bb52b01e2e633bca" archimateRelationship="id-b9e7831abdfb4fac9b9f336fcad39904">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+              <bendpoint startX="648" startY="4" endX="-72" endY="172"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-3f78fd3703de47ccb60c4012196ea0e8" lineColor="#000000" source="id-3104c30bbb9346a9ae798cbbf34a3c9f" target="id-5f069402729a46d8aa77eeddc0c8a619" archimateRelationship="id-c0ab9224d2ff4c87b8460f8403efa087">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+              <bendpoint startX="552" startY="20" endX="-564" endY="31"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-54b419b483554ae691a6cf1ccf3ff24c" source="id-3104c30bbb9346a9ae798cbbf34a3c9f" target="id-4b35069e5d2246e2901cb4b400843a18" archimateRelationship="id-54ecae0cadd64906909d7c6a13f79fa3">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+              <bendpoint startX="732" startY="20" endX="-696" endY="-137"/>
+              <bendpoint startX="732" startY="176" endX="-696" endY="19"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:Note" id="id-a7dff4f07d824660a44dfc60857b58e9" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="727" y="360" width="145" height="28"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ belongs to (0..n)</content>
+            <property key="Nederlandse naam" value="→ hoort bij (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-d10f01e986ac4ce1aedc37a7febee907" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="744" y="379" width="135" height="33"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>← has (0..n)</content>
+            <property key="Nederlandse naam" value="← heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-2f7094cd7678470a9a00a541780191ea" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1027" y="389" width="145" height="28"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ is part of (0..n)</content>
+            <property key="Nederlandse naam" value="→ hoort bij (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-992c7600f37746c0b095e5360aeaa0cc" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1044" y="408" width="135" height="33"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>← has (0..n)</content>
+            <property key="Nederlandse naam" value="← heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-d4a36f8555bd4e008e83bd60ea1ef0bc" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1142" y="408" width="145" height="28"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ belongs to (0..n)</content>
+            <property key="Nederlandse naam" value="→ hoort bij (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-111b9683e5784228b640b5454727c15b" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1152" y="428" width="135" height="33"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>← has (0..n)</content>
+            <property key="Nederlandse naam" value="← heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-72196f3a2f3a4988827de63ae3ccce98" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="710" y="528" width="145" height="28"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ is assigned to (0..n)</content>
+            <property key="Nederlandse naam" value="→ is toegekend aan (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-172397ba2827432080116eb1ebf13775" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="720" y="548" width="135" height="33"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>← has (0..n)</content>
+            <property key="Nederlandse naam" value="← heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-7f3f56752999470b95bfc62124cd2f5b" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="854" y="566" width="145" height="28"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ is assigned to (0..n)</content>
+            <property key="Nederlandse naam" value="→ is toegekend aan (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-e77052dd8ac1459891119737415b668b" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="864" y="586" width="135" height="33"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>← has (0..n)</content>
+            <property key="Nederlandse naam" value="← heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-038dc693b6fd43f0b6eefad0c7570c4b" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="408" y="336" width="127" height="22"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ consists of (0..n)</content>
+            <property key="Nederlandse naam" value="→ bestaat uit (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-6ab6ea88ba8e4e35ba8587e2af2521e8" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1608" y="117" width="89" height="28"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ is (0..1)</content>
+            <property key="Nederlandse naam" value="→ is (0..1)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-0cf9c4fec36041b1bc25d494b82c4f2c" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1608" y="144" width="89" height="33"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>← is (1..1)</content>
+            <property key="Nederlandse naam" value="← is (1..1)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-8884576088854b8bac5e804c26bf8494" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1183" y="34" width="97" height="28"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ has (0..n)</content>
+            <property key="Nederlandse naam" value="→ heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-525d5df44a4a4f7ba42783498769622f" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1164" y="60" width="135" height="33"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>← is part of (0..n)</content>
+            <property key="Nederlandse naam" value="← is deel van (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-06c9016941544af1a7986258ab86111b" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1416" y="180" width="97" height="28"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ has (0..n)</content>
+            <property key="Nederlandse naam" value="→ heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-80774729675e49c6b5ddbf76771e2589" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="1411" y="204" width="135" height="33"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>← is part of (0..n)</content>
+            <property key="Nederlandse naam" value="← is deel van (0..n)"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-dae41bf5bf7a4757b0cbd04c1083cc50" targetConnections="id-7f30fe59553b4c768d86b7e1e92e1239" textPosition="1" archimateElement="id-f4b77ec47d244db68914129110d65b0c">
+            <bounds x="1680" y="108" width="169" height="85"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-492479f7bab44c6a91c816b9d6999dd7" source="id-dae41bf5bf7a4757b0cbd04c1083cc50" target="id-c17dce9c11134e97bb52b01e2e633bca" archimateRelationship="id-bcaf5297eb554decaf8a515c81283ac7">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+              <bendpoint startX="-156" startY="-5" endX="288" endY="-89"/>
+              <bendpoint startX="-156" startY="91" endX="288" endY="7"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-79e0c36a1095484cb606dc6150abd090" targetConnections="id-09a3ba8920e3404db8fb7a17600f039b" textPosition="1" archimateElement="id-25c5d97fd1734840942b3b0771420720">
+            <bounds x="24" y="24" width="169" height="85"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-800b6663b10642c7926a358190b00689" source="id-79e0c36a1095484cb606dc6150abd090" target="id-f88ac6bd783940549c685b4a2c4654f5" archimateRelationship="id-e0c1ff5ec579441e97c3f78467e40676">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-77940bd51d354bc8a2a75acd3faf49f7" targetConnections="id-1805b424619e4d5ba40931cfb8da842d" textPosition="1" archimateElement="id-f2c0b9ddec964a5983b04c846f9e6f0d">
+            <bounds x="24" y="151" width="169" height="85"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-04cfaaf65b904656982a9ea71893069f" source="id-77940bd51d354bc8a2a75acd3faf49f7" target="id-f88ac6bd783940549c685b4a2c4654f5" archimateRelationship="id-7951054280ba4485a80d4e0fdb36dfd8">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+              <bendpoint startX="852" startY="-24" endX="-48" endY="103"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-7c76f9d06ec440afa5968234d73aeba5" source="id-77940bd51d354bc8a2a75acd3faf49f7" target="id-c17dce9c11134e97bb52b01e2e633bca" archimateRelationship="id-ffb018f0d88a4b3aae2a586ab846a02d">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-1dc3c883c23b4b57909f8c0972545dbd" source="id-77940bd51d354bc8a2a75acd3faf49f7" target="id-3104c30bbb9346a9ae798cbbf34a3c9f" archimateRelationship="id-cd11d8c3bddd4eeab14bce37310e0769">
+              <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+              <bendpoint startY="216" endX="-492" endY="-4"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:Note" id="id-dea1d639337c4e3691d9fa3172c03320" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="479" y="35" width="97" height="28"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ is (1..1)</content>
+            <property key="Nederlandse naam" value="→ is (1..1)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-26f756717c5a40fba92fba4bab25639b" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="480" y="62" width="96" height="33"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>← is (0..1)</content>
+            <property key="Nederlandse naam" value="← is (0..1)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-24a5ded4501c474f983f20ca71711de2" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="443" y="149" width="145" height="28"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ belongs to (0..n)</content>
+            <property key="Nederlandse naam" value="→ hoort bij (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-f97d22051dcd45989371cfed6b10f4d6" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="460" y="168" width="135" height="33"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>← has (0..n)</content>
+            <property key="Nederlandse naam" value="← heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-14d491ed4ce74371b0120de8f14da8ed" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="607" y="191" width="145" height="28"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ belongs to (0..n)</content>
+            <property key="Nederlandse naam" value="→ hoort bij (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-d3f8047c2e444a11bd10c79b785fa6f6" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="624" y="210" width="135" height="33"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>← has (0..n)</content>
+            <property key="Nederlandse naam" value="← heeft (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-74321be61cd043569a627b86f9b4058b" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="168" y="382" width="145" height="28"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>→ consists of (0..n)</content>
+            <property key="Nederlandse naam" value="→ bestaat uit (0..n)"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-49f07b47510d495aa0b22da580c2113c" textAlignment="1" alpha="0" borderType="2">
+            <bounds x="173" y="401" width="135" height="33"/>
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <content>← is part of (0..n)</content>
+            <property key="Nederlandse naam" value="← is deel van (0..n)"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-5c5a070802924efdae9b390d0f007295" textAlignment="1" archimateElement="id-aecb01410b534c9f8798b2c254d3c94d">
+          <bounds x="156" y="-1176" width="1909" height="781"/>
+          <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b614197838ae4957935d071808eea31b" textAlignment="1" archimateElement="id-5f37b6baf3cc4b9ca30c2d76ca120c7d">
+          <bounds x="-1812" y="-960" width="1909" height="781"/>
+          <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-665d1649a33641b5896d590012523828" targetConnections="id-78e36e46f410409d8676c671f05702a9" textPosition="1" archimateElement="id-c64bc44082fb42be8d98330b215d5d30">
+          <bounds x="1224" y="-216" width="169" height="85"/>
+          <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-28c2226ab20140ea84ee17e4d6a892b6" source="id-665d1649a33641b5896d590012523828" target="id-f88ac6bd783940549c685b4a2c4654f5" archimateRelationship="id-64ba88d5c179424b83e8ff3244805dc3">
+            <feature name="labelExpression" value="${property:Nederlandse naam}"/>
+            <bendpoint startX="-60" startY="235" endX="420" endY="-5"/>
+          </sourceConnection>
+        </child>
+        <property key="Nederlandse naam" value="Conceptueel informatiemodel onderwijs"/>
+      </element>
+    </folder>
+  </folder>
+  <profile name="Application component" id="id-05949b7a0ef54454a13bfcf551e607f7" conceptType="ApplicationComponent"/>
+  <profile name="Application function" id="id-cc066582a62c4f6bb266e37f7f79ee86" conceptType="ApplicationFunction"/>
+  <profile name="Application service" id="id-93f0da63058749da8c9e349108a8e1ce" conceptType="ApplicationService"/>
+  <profile name="Collaboration" id="id-929ac0c7883742ee88aace13c7ed5bfb" conceptType="BusinessCollaboration"/>
+  <profile name="Business event" id="id-8e24b59e694a44389db7730c6f380d27" conceptType="BusinessEvent"/>
+  <profile name="Business object" id="id-e0f438c59954414cba38ae42d54268d9" conceptType="BusinessObject"/>
+  <profile name="Business function" id="id-7c81cb4a877f4f6daabf856edc6a0324" conceptType="BusinessFunction"/>
+  <profile name="Process" id="id-6f00045a749b4b95863195c0b81c9d62" conceptType="BusinessProcess"/>
+  <profile name="Internal business service" id="id-d9a82f6c10f244ee829b7121d56e5661" conceptType="BusinessService"/>
+  <profile name="Employee" id="id-5fccf3ccd3374995960397e5efb34bcf" conceptType="BusinessRole"/>
+  <profile name="Organizational unit" id="id-e95f153abd4e493d8929f63f65f4e97d" conceptType="BusinessActor"/>
+  <profile name="Contract" id="id-d238d157f649421d9e571591e959d288" conceptType="Contract"/>
+  <profile name="Product" id="id-0fe9650153ec4afc9cdee73d68d0ba64" conceptType="Product"/>
+  <profile name="Business service" id="id-296e3aa5cf6c45d5b286c4f43cbf6987" conceptType="BusinessService"/>
+  <profile name="Channel" id="id-74f726f4a8134ade9bb05f143ce79f12" conceptType="BusinessInterface"/>
+  <profile name="Party" id="id-c454f5a68ae24399b1afc6b4d846a5de" conceptType="BusinessRole"/>
+  <profile name="Customer" id="id-131bbc81b845442a8d08b6955fe2db78" conceptType="BusinessRole"/>
+  <profile name="Customer journey" id="id-19ab03362cdc440b9182955aea2b642e" conceptType="BusinessProcess"/>
+  <profile name="Person/organization" id="id-92c69a4e3f184ee09705c9d0e740cd68" conceptType="BusinessActor"/>
+  <profile name="Driver" id="id-2c6e06f4d3e04f00ae23262eab7158d3" conceptType="Driver"/>
+  <profile name="Goal" id="id-95cb8436b09246078da8dd01f862545e" conceptType="Goal"/>
+  <profile name="Principle" id="id-105ae8d2a2b74389bce7db065edb3611" conceptType="Principle"/>
+  <profile name="Requirement" id="id-c6950e94bd4f41c5b75220faea140710" conceptType="Requirement"/>
+  <profile name="Standard" id="id-c4eee2084c0c4fa188aa24eb9d976868" conceptType="Constraint"/>
+  <profile name="Strategy" id="id-155b9ae89137400a98b7862dc0cf9bf2" conceptType="CourseOfAction"/>
+  <profile name="Capability" id="id-064eb4209b0a4e35a2bed202c164a38e" conceptType="Capability"/>
+  <profile name="Value stream" id="id-10fd4dedff8145c5b9edfd2c8f4742be" conceptType="ValueStream"/>
+  <profile name="Data object" id="id-cc56aa2683454d2c8da6be5f3f83ba62" conceptType="DataObject"/>
+  <profile name="Application interface" id="id-14294342bf6c44b0bdda0243d4ff4426" conceptType="ApplicationInterface"/>
+  <profile name="Data carrier" id="id-7e185fd36650486bac7497287f3563aa" conceptType="Artifact"/>
+  <profile name="Technology service" id="id-60b0d6fa3e3042bba2dff80af7c8489a" conceptType="TechnologyService"/>
+  <profile name="Technology interface" id="id-25ea1354fe57410088a5e16d001d8879" conceptType="TechnologyInterface"/>
+  <profile name="Technology function" id="id-17102c48bc2a444a88c419f680a1cf0a" conceptType="TechnologyFunction"/>
+  <profile name="Technology component" id="id-774d5f09e12b468d9bb0e1ad28931261" conceptType="Node"/>
+  <profile name="System software" id="id-c56155e9253f4f53ac6d132bfb2d6b2f" conceptType="SystemSoftware"/>
+  <profile name="Device" id="id-2821f71147e84a2386df3f7b91c32d13" conceptType="Device"/>
+</archimate:model>

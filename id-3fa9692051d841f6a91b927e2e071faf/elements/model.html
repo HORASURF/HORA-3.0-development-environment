@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>2025109a HORA 3.0 CIM Onderwijs</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>2025109a HORA 3.0 CIM Onderwijs</b>
+
+            <!-- If a View with Viewpoint -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+                       <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-purpose"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#query" aria-controls="query" role="tab" data-toggle="tab" class="i18n-query"></a></li>
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="query">
+						<br>
+						<style>
+						#myprompt {
+						    width: 80%;
+						    font-family: Consolas,Monaco, monospace;
+						}
+						</style>
+
+						<div id='myconsole'></div>
+
+						<p>
+							<tt><span id="useid">alasql</span> &gt;</tt> <input id='myprompt' autofocus/> 
+						</p>
+
+						<script src='../../lib/alasql/alasql.min.js'></script>
+
+						<script>
+							function decodeURL(s) {
+								return decodeURIComponent(s.replace(/\+/g, "%20"));
+							}
+
+							var first = decodeURI(location.search.substr(1));
+						 	alasql.options.logtarget = 'myconsole';
+							alasql.prompt('myprompt','useid');
+							alasql.prompt('myprompt','useid', first);
+
+							var dataElements = [ ];	  
+						  	var dataProperties = [ ];
+						 	var dataRelationships = [ ];
+						 	var dataViews = [ ];
+						 	var dataViewsContent = [ ];
+						 	var dataFolders = [ ];
+						 	var dataFoldersContent = [ ];
+
+							dataFolders.push({id:"id-3fa9692051d841f6a91b927e2e071faf", type:"ArchimateModel", name:decodeURL("2025109a+HORA+3.0+CIM+Onderwijs"), documentation:decodeURL("")});
+								dataFoldersContent.push({folderid:"id-3fa9692051d841f6a91b927e2e071faf", contentid:"id-c07304eb3ea04e558c3e052f30dc6068", contenttype:"Folder"});
+								dataFolders.push({id:"id-c07304eb3ea04e558c3e052f30dc6068", type:"Folder", name:decodeURL("Strategy"), documentation:decodeURL("")});
+
+								dataFoldersContent.push({folderid:"id-3fa9692051d841f6a91b927e2e071faf", contentid:"id-0e0c62b3b03c4ec59aeea463b248f202", contenttype:"Folder"});
+								dataFolders.push({id:"id-0e0c62b3b03c4ec59aeea463b248f202", type:"Folder", name:decodeURL("Business"), documentation:decodeURL("")});
+									dataFoldersContent.push({folderid:"id-0e0c62b3b03c4ec59aeea463b248f202", contentid:"id-f373d2ec7e4a4c0e8d5cefb3467e2342", contenttype:"BusinessObject"});
+										dataElements.push({id:"id-f373d2ec7e4a4c0e8d5cefb3467e2342", type:"BusinessObject", specialization:decodeURL("Business+object"), name:decodeURL("Assessment+component+%28specification%29"), documentation:decodeURL("EN%3A+The+specification+of+the+part+of+a+course+unit+that+determines+which+competences+the+student+has+acquired%2C+leading+to+a+summative+assessment.%0A%0ANL%3A+De+specificatie+van+het+deel+van+een+onderwijseenheid+waarmee+wordt+vastgesteld+over+welke+competenties+de+student+beschikt%2C+leidend+tot+een+summatieve+beoordeling.")});
+													dataProperties.push({conceptid:"id-f373d2ec7e4a4c0e8d5cefb3467e2342", propkey:decodeURL("Nederlandse+naam"), propvalue:decodeURL("Toetsonderdeel%28-specificatie%29")});
+
+									dataFoldersContent.push({folderid:"id-0e0c62b3b03c4ec59aeea463b248f202", contentid:"id-190c4f52b63f466e8f039cffd98ea261", contenttype:"BusinessObject"});
+										dataElements.push({id:"id-190c4f52b63f466e8f039cffd98ea261", type:"BusinessObject", specialization:decodeURL("Business+object"), name:decodeURL("Learning+component+%28specification%29"), documentation:decodeURL("EN%3A+The+specification+of+the+part+of+a+course+that+enables+the+student+to+acquire+competences.%0A%0ANL%3A+De+specificatie+van+het+deel+van+een+onderwijseenheid+waarmee+de+student+competenties+kan+verwerven.")});
+													dataProperties.push({conceptid:"id-190c4f52b63f466e8f039cffd98ea261", propkey:decodeURL("Nederlandse+naam"), propvalue:decodeURL("Leeronderdeel%28-specificatie%29")});
+
+									dataFoldersContent.push({folderid:"id-0e0c62b3b03c4ec59aeea463b248f202", contentid:"id-b44b208c2bd343b293c608ee6663e3d6", contenttype:"BusinessObject"});
+										dataElements.push({id:"id-b44b208c2bd343b293c608ee6663e3d6", type:"BusinessObject", specialization:decodeURL("Business+object"), name:decodeURL("Course+%28specification%29"), documentation:decodeURL("EN%3A+The+specification+of+the+fundamental+unit+in+which+education+is+designed+and+offered%2C+in+the+form+of+a+coherent+system+of+one+or+more+%28intended%29+learning+outcomes%2C+learning+components+or+assessment+components.%0A%0ANL%3A+De+specificatie+van+de+fundamentele+eenheid+waarin+onderwijs+wordt+ontworpen+en+aangeboden%2C+in+de+vorm+van+een+samenhangend+stelsel+van+%C3%A9%C3%A9n+of+meer+%28beoogde%29+leeruitkomsten%2C+leeronderdelen+of+toetsonderdelen.")});
+													dataProperties.push({conceptid:"id-b44b208c2bd343b293c608ee6663e3d6", propkey:decodeURL("Nederlandse+naam"), propvalue:decodeURL("Onderwijseenheid%28-specificatie%29")});
+
+									dataFoldersContent.push({folderid:"id-0e0c62b3b03c4ec59aeea463b248f202", contentid:"id-8c15f665c7644dd58cfcf807a8babc76", contenttype:"BusinessObject"});
+										dataElements.push({id:"id-8c15f665c7644dd58cfcf807a8babc76", type:"BusinessObject", specialization:decodeURL("Business+object"), name:decodeURL("Programme+%28specification%29"), documentation:decodeURL("EN%3A+The+specification+of+a+coherent+collection+of+one+or+more+%28sub%29programmes%2C+learning+outcomes+or+courses+developed+by+the+education+provider.%0A%0ANL%3A+De+specificatie+van+een+door+de+onderwijsaanbieder+ontwikkelde+samenhangende+verzameling+van+%C3%A9%C3%A9n+of+meer+%28deel%29programma%E2%80%99s%2C+leeruitkomsten+of+onderwijseenheden.")});
+													dataProperties.push({conceptid:"id-8c15f665c7644dd58cfcf807a8babc76", propkey:decodeURL("Nederlandse+naam"), propvalue:decodeURL("Programma%28-specificatie%29")});
+
+									dataFoldersContent.push({folderid:"id-0e0c62b3b03c4ec59aeea463b248f202", contentid:"id-1f2e01d154854bdb810d1ef5b5bb756f", contenttype:"BusinessObject"});
+										dataElements.push({id:"id-1f2e01d154854bdb810d1ef5b5bb756f", type:"BusinessObject", specialization:decodeURL("Business+object"), name:decodeURL("Credit+point"), documentation:decodeURL("EN%3A+An+assessment+of+the+effort+required+of+the+student+to+complete+a+programme+or+course%2C+based+on+the+time+that+an+average+student+would+need+to+spend+on+it%2C+according+to+the+education+provider%2C+in+order+to+achieve+a+satisfactory+programme+or+course+result.%0A%0ANL%3A+Een+waardering+van+de+inspanning+die+de+uitvoering+van+een+programma+of+onderwijseenheid+vraagt+van+de+student%2C+gebaseerd+op+de+tijd+die+een+gemiddelde+student+er+volgens+de+onderwijsaanbieder+aan+zou+moeten+besteden+om+een+voldoende+programma-+of+onderwijseenheidresultaat+te+behalen.")});
+													dataProperties.push({conceptid:"id-1f2e01d154854bdb810d1ef5b5bb756f", propkey:decodeURL("Nederlandse+naam"), propvalue:decodeURL("Studiepunt")});
+
+									dataFoldersContent.push({folderid:"id-0e0c62b3b03c4ec59aeea463b248f202", contentid:"id-98f502ae1dc147fba93d79ee181be6cf", contenttype:"BusinessObject"});
+										dataElements.push({id:"id-98f502ae1dc147fba93d79ee181be6cf", type:"BusinessObject", specialization:decodeURL("Business+object"), name:decodeURL("%28Intended%29+learning+outcome"), documentation:decodeURL("EN%3A+The+description+of+competencies+that+the+student+should+ideally+possess+after+completing+a+programme+or+course.%0A%0ANL%3A+De+beschrijving+van+competenties+waarover+de+student+idealiter+beschikt+na+het+afronden+van+een+programma+of+onderwijseenheid.")});
+													dataProperties.push({conceptid:"id-98f502ae1dc147fba93d79ee181be6cf", propkey:decodeURL("Nederlandse+naam"), propvalue:decodeURL("%28Beoogde%29+leeruitkomst")});
+
+									dataFoldersContent.push({folderid:"id-0e0c62b3b03c4ec59aeea463b248f202", contentid:"id-f4b77ec47d244db68914129110d65b0c", contenttype:"BusinessObject"});
+										dataElements.push({id:"id-f4b77ec47d244db68914129110d65b0c", type:"BusinessObject", specialization:decodeURL("Business+object"), name:decodeURL("Unit+of+learning+outcomes+%28specification%29"), documentation:decodeURL("EN%3A+A+course+without+learning+and+assessment+components+that+is+specified+by+%28intended%29+learning+outcomes.%0A%0ANL%3A+Een+onderwijseenheid+zonder+leer-+en+toetsonderdelen+die+wordt+gespecificeerd+door+%28beoogde%29+leeruitkomsten.")});
+													dataProperties.push({conceptid:"id-f4b77ec47d244db68914129110d65b0c", propkey:decodeURL("Nederlandse+naam"), propvalue:decodeURL("Eenheid+van+leeruitkomsten")});
+
+									dataFoldersContent.push({folderid:"id-0e0c62b3b03c4ec59aeea463b248f202", contentid:"id-c64bc44082fb42be8d98330b215d5d30", contenttype:"BusinessObject"});
+										dataElements.push({id:"id-c64bc44082fb42be8d98330b215d5d30", type:"BusinessObject", specialization:decodeURL("Business+object"), name:decodeURL("Learning+entitlement+specification"), documentation:decodeURL("EN%3A+The+specification+of+the+rights+arising+from+the+successful+completion+of+a+course+or+programme.%0A%0ANL%3A+De+specificatie+van+de+rechten+die+voortvloeien+uit+het+met+een+voldoende+resultaat+afsluiten+van+een+onderwijseenheid+of+programma.")});
+													dataProperties.push({conceptid:"id-c64bc44082fb42be8d98330b215d5d30", propkey:decodeURL("Nederlandse+naam"), propvalue:decodeURL("Bevoegdheids-specificatie")});
+
+									dataFoldersContent.push({folderid:"id-0e0c62b3b03c4ec59aeea463b248f202", contentid:"id-25c5d97fd1734840942b3b0771420720", contenttype:"BusinessObject"});
+										dataElements.push({id:"id-25c5d97fd1734840942b3b0771420720", type:"BusinessObject", specialization:decodeURL("Business+object"), name:decodeURL("Educational+programme"), documentation:decodeURL("EN%3A+A+programme+established+by+an+educational+institution+with+a+status+laid+down+in+the+WHW.%0A%0ANL%3A+Een+door+een+onderwijsinstelling+vastgesteld+programma+met+een+in+de+WHW+vastgelegde+status.")});
+													dataProperties.push({conceptid:"id-25c5d97fd1734840942b3b0771420720", propkey:decodeURL("Nederlandse+naam"), propvalue:decodeURL("Opleiding")});
+
+									dataFoldersContent.push({folderid:"id-0e0c62b3b03c4ec59aeea463b248f202", contentid:"id-f2c0b9ddec964a5983b04c846f9e6f0d", contenttype:"BusinessObject"});
+										dataElements.push({id:"id-f2c0b9ddec964a5983b04c846f9e6f0d", type:"BusinessObject", specialization:decodeURL("Business+object"), name:decodeURL("Admission+requirement"), documentation:decodeURL("EN%3A+The+specification+of+the+credentials+or+competencies+that+a+student+must+possess+in+order+to+be+allowed+to+follow+a+programme+or+course.%0A%0ANL%3A+De+specificatie+van+de+credentials+of+competenties+waarover+een+student+dient+te+beschikken+om+een+programma+of+onderwijseenheid+te+mogen+volgen.")});
+													dataProperties.push({conceptid:"id-f2c0b9ddec964a5983b04c846f9e6f0d", propkey:decodeURL("Nederlandse+naam"), propvalue:decodeURL("Toelatingseis")});
+
+
+								dataFoldersContent.push({folderid:"id-3fa9692051d841f6a91b927e2e071faf", contentid:"id-a9b2e8ce0f0240208795cf59ce6f6e92", contenttype:"Folder"});
+								dataFolders.push({id:"id-a9b2e8ce0f0240208795cf59ce6f6e92", type:"Folder", name:decodeURL("Application"), documentation:decodeURL("")});
+
+								dataFoldersContent.push({folderid:"id-3fa9692051d841f6a91b927e2e071faf", contentid:"id-740f1cbd933544b9b5d529291c363b30", contenttype:"Folder"});
+								dataFolders.push({id:"id-740f1cbd933544b9b5d529291c363b30", type:"Folder", name:decodeURL("Technology+%26+Physical"), documentation:decodeURL("")});
+
+								dataFoldersContent.push({folderid:"id-3fa9692051d841f6a91b927e2e071faf", contentid:"id-98ebc253051d4701a9902078e1d6c628", contenttype:"Folder"});
+								dataFolders.push({id:"id-98ebc253051d4701a9902078e1d6c628", type:"Folder", name:decodeURL("Motivation"), documentation:decodeURL("")});
+
+								dataFoldersContent.push({folderid:"id-3fa9692051d841f6a91b927e2e071faf", contentid:"id-e503abb586da46b1b93b95b3f4f4a403", contenttype:"Folder"});
+								dataFolders.push({id:"id-e503abb586da46b1b93b95b3f4f4a403", type:"Folder", name:decodeURL("Implementation+%26+Migration"), documentation:decodeURL("")});
+
+								dataFoldersContent.push({folderid:"id-3fa9692051d841f6a91b927e2e071faf", contentid:"id-eda5b4bd5c5a422e963218d10bb8f206", contenttype:"Folder"});
+								dataFolders.push({id:"id-eda5b4bd5c5a422e963218d10bb8f206", type:"Folder", name:decodeURL("Other"), documentation:decodeURL("")});
+									dataFoldersContent.push({folderid:"id-eda5b4bd5c5a422e963218d10bb8f206", contentid:"id-a27b8ffbe70145c0bf38c259b1158faa", contenttype:"Grouping"});
+										dataElements.push({id:"id-a27b8ffbe70145c0bf38c259b1158faa", type:"Grouping", specialization:decodeURL(""), name:decodeURL("Education+specification"), documentation:decodeURL("")});
+													dataProperties.push({conceptid:"id-a27b8ffbe70145c0bf38c259b1158faa", propkey:decodeURL("Nederlandse+naam"), propvalue:decodeURL("Onderwijsspecificatie")});
+
+									dataFoldersContent.push({folderid:"id-eda5b4bd5c5a422e963218d10bb8f206", contentid:"id-aecb01410b534c9f8798b2c254d3c94d", contenttype:"Grouping"});
+										dataElements.push({id:"id-aecb01410b534c9f8798b2c254d3c94d", type:"Grouping", specialization:decodeURL(""), name:decodeURL("Education+offerings"), documentation:decodeURL("")});
+													dataProperties.push({conceptid:"id-aecb01410b534c9f8798b2c254d3c94d", propkey:decodeURL("Nederlandse+naam"), propvalue:decodeURL("Onderwijsaanbod")});
+
+									dataFoldersContent.push({folderid:"id-eda5b4bd5c5a422e963218d10bb8f206", contentid:"id-5f37b6baf3cc4b9ca30c2d76ca120c7d", contenttype:"Grouping"});
+										dataElements.push({id:"id-5f37b6baf3cc4b9ca30c2d76ca120c7d", type:"Grouping", specialization:decodeURL(""), name:decodeURL("Offering+association"), documentation:decodeURL("")});
+													dataProperties.push({conceptid:"id-5f37b6baf3cc4b9ca30c2d76ca120c7d", propkey:decodeURL("Nederlandse+naam"), propvalue:decodeURL("Onderwijsverbintenis")});
+
+
+								dataFoldersContent.push({folderid:"id-3fa9692051d841f6a91b927e2e071faf", contentid:"id-d522b9f2e255472a9d73c10ccc43dd37", contenttype:"Folder"});
+								dataFolders.push({id:"id-d522b9f2e255472a9d73c10ccc43dd37", type:"Folder", name:decodeURL("Relations"), documentation:decodeURL("")});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-12e47f7507384f378f81b2244003dfec", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-12e47f7507384f378f81b2244003dfec", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+A+course+does+not+have+to+contain+an+assessment+component%2C+but+an+assessment+component+must+belong+to+at+least+one+course.%0AAn+assessment+component+%28specification%29+is+always+related+to+a+course+%28specification%29%3A+an+assessment+always+has+a+reference+point+in+the+form+of+a+course%3A+what+is+being+taught+%28the+learning+component+specification%29+and%2For+learning+outcomes%3B+elements+are+related+to+each+other+within+the+course.%0AThe+model+allows+a+student+not+to+follow+the+learning+component%2C+but+to+follow+the+assessment+component.%0A%0ANL%3A+Een+onderwijseenheid+hoeft+geen+toetsonderdeel+te+bevatten%2C+maar+een+toetsonderdeel+hoort+wel+minimaal+bij+%C3%A9%C3%A9n+onderwijseenheid.%0AEen+toetsonderdeel%28specificatie%29+is+altijd+gerelateerd+aan+onderwijseenheid%28specificatie%29%3A+een+toets+heeft+altijd+een+referentiepunt+in+de+vorm+van+een+onderwijseenheid%3A+dat+wat+geleerd+wordt+%28de+leeronderdeelspecificatie%29+en%2Fof+leeruitkomsten%3B+in+de+onderwijseenheid+worden+elementen+aan+elkaar+gerelateerd.%0AHet+model+staat+toe+dat+een+student+niet+het+leeronderdeel+volgt%2C+maar+wel+het+toetsonderdeel."), sourceid:"id-b44b208c2bd343b293c608ee6663e3d6", targetid:"id-f373d2ec7e4a4c0e8d5cefb3467e2342"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-afe11d84dcc545798f96cb8bcce36298", contenttype:"AggregationRelationship"});
+										dataRelationships.push({id:"id-afe11d84dcc545798f96cb8bcce36298", type:"AggregationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-a27b8ffbe70145c0bf38c259b1158faa", targetid:"id-f373d2ec7e4a4c0e8d5cefb3467e2342"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-34bf7df46c474d0388ef170e0bd82edf", contenttype:"AggregationRelationship"});
+										dataRelationships.push({id:"id-34bf7df46c474d0388ef170e0bd82edf", type:"AggregationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-a27b8ffbe70145c0bf38c259b1158faa", targetid:"id-190c4f52b63f466e8f039cffd98ea261"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-a7bc14b5dce84927ac66b72b59443963", contenttype:"AggregationRelationship"});
+										dataRelationships.push({id:"id-a7bc14b5dce84927ac66b72b59443963", type:"AggregationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-a27b8ffbe70145c0bf38c259b1158faa", targetid:"id-b44b208c2bd343b293c608ee6663e3d6"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-e359c4bc735546759d831b248cf14c43", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-e359c4bc735546759d831b248cf14c43", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+A+course+does+not+necessarily+have+to+contain+learning+components.+A+learning+component+may+exist+independently+of+a+course+if+it+concerns+non-formal+education+%28refresher+courses%2C+MOOCs%2C+HOVO%29.%0A%0ANL%3A+Een+onderwijseenheid+hoeft+geen+leeronderdelen+te+bevatten.+Een+leeronderdeel+kan+los+van+een+onderwijseenheid+bestaan+indien+het+non-formeel+onderwijs+betreft+%28bijspijkercursussen%2C+MOOC%27s%2C+HOVO%29."), sourceid:"id-b44b208c2bd343b293c608ee6663e3d6", targetid:"id-190c4f52b63f466e8f039cffd98ea261"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-0f8701c4a5474cdd8b1676e48929aff8", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-0f8701c4a5474cdd8b1676e48929aff8", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+A+learning+component+may+consist+of+smaller+parts+or+be+part+of+a+composite+learning+component.%0A%0ANL%3A+Een+leeronderdeel+kan+uit+kleinere+onderdelen+bestaan+of+deel+zijn+van+een+samengesteld+leeronderdeel."), sourceid:"id-190c4f52b63f466e8f039cffd98ea261", targetid:"id-190c4f52b63f466e8f039cffd98ea261"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-8e72354a62594ab5bffaa72a7d38bf84", contenttype:"AggregationRelationship"});
+										dataRelationships.push({id:"id-8e72354a62594ab5bffaa72a7d38bf84", type:"AggregationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-a27b8ffbe70145c0bf38c259b1158faa", targetid:"id-8c15f665c7644dd58cfcf807a8babc76"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-de798bc1e7de42bc96cb011dcd324a11", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-de798bc1e7de42bc96cb011dcd324a11", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+A+course+unit+can+be+developed+without+being+part+of+a+programme+and+can+be+included+in+multiple+programmes.%0AA+programme+that+does+not+contain+course+units+can+be+defined+by+learning+outcomes+or+credit+points.+Such+a+programme+allows+students+to+choose+course+units+themselves+in+order+to+achieve+the+programme%27s+learning+outcomes+or+credits.+%0AIf+a+programme+does+not+contain+any+educational+units%2C+it+must+have+learning+outcomes+or+credits+that+define+how+the+programme+can+be+%E2%80%9Cfilled%E2%80%9D+with+educational+units.%0AIn+the+conceptual+information+model%2C+it+is+not+possible+to+model+this+%E2%80%9Cbusiness+rule%E2%80%9D+with+mere+relationships+and+cardinality.+The+application+rule+below+overcomes+this+limitation+of+the+conceptual+information+model.%0A%0ANL%3A+Een+onderwijseenheid+kan+worden+ontwikkeld+zonder+dat+het+deel+uitmaakt+van+een+programma%2C+en+kan+in+meerdere+programma%27s+zijn+opgenomen.%0AEen+programma+dat+geen+onderwijseenheden+bevat+kan+eventueel+gedefinieerd+worden+door+leeruitkomsten+of+studiepunten.+Een+dergelijk+programma+geeft+een+student+de+mogelijkheid+om+zelf+onderwijseenheden+te+kiezen+waarmee+de+leeruitkomsten+of+studiepunten+van+het+programma+behaald+kunnen+worden.+%0AIndien+een+programma+geen+onderwijseenheden+bevat%2C+moet+het+wel+leeruitkomsten+of+studiepunten+hebben+waarmee+wordt+ingekaderd+hoe+het+programma+kan+worden+%27gevuld%27+met+onderwijseenheden.%0AIn+het+conceptuele+informatiemodel+is+het+niet+mogelijk+om+deze+%27bedrijfsregel%27+met+louter+relaties+en+kardinaliteit+te+modelleren.+Met+de+toepassingsregel+hieronder+wordt+deze+beperking+van+het+conceptuele+informatiemodel+ondervangen."), sourceid:"id-8c15f665c7644dd58cfcf807a8babc76", targetid:"id-b44b208c2bd343b293c608ee6663e3d6"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-3d61919c9c6a4a688e3ca80521152cf2", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-3d61919c9c6a4a688e3ca80521152cf2", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+An+assessment+component+may+consist+of+smaller+parts+or+be+part+of+a+composite+assessment+component.%0A%0ANL%3A+Een+toetsonderdeel+kan+uit+kleinere+onderdelen+bestaan+of+deel+zijn+van+een+samengesteld+toetsonderdeel."), sourceid:"id-f373d2ec7e4a4c0e8d5cefb3467e2342", targetid:"id-f373d2ec7e4a4c0e8d5cefb3467e2342"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-32a55dc4ff974712b0bd3c193b670771", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-32a55dc4ff974712b0bd3c193b670771", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3AA+programme+is+a+recursive+object.+It+can+consist+of+%28sub%29programmes+or+be+part+of+an+overarching+programme+itself.%0A%0ANL%3A+Een+programma+is+een+recursief+object.+Het+kan+bestaan+uit+%28deel%29programma%27s+of+zelf+deel+zijn+van+een+overkoepelend+programma."), sourceid:"id-8c15f665c7644dd58cfcf807a8babc76", targetid:"id-8c15f665c7644dd58cfcf807a8babc76"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-a0764b5f5e9d42b1a5ef9000770007ce", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-a0764b5f5e9d42b1a5ef9000770007ce", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-1f2e01d154854bdb810d1ef5b5bb756f", targetid:"id-1f2e01d154854bdb810d1ef5b5bb756f"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-edc9efccaa194e658e6488d5bc1619f8", contenttype:"AggregationRelationship"});
+										dataRelationships.push({id:"id-edc9efccaa194e658e6488d5bc1619f8", type:"AggregationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-a27b8ffbe70145c0bf38c259b1158faa", targetid:"id-1f2e01d154854bdb810d1ef5b5bb756f"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-b60f65b9a5b644bf8927600582ff2ec0", contenttype:"AggregationRelationship"});
+										dataRelationships.push({id:"id-b60f65b9a5b644bf8927600582ff2ec0", type:"AggregationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-a27b8ffbe70145c0bf38c259b1158faa", targetid:"id-98f502ae1dc147fba93d79ee181be6cf"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-aff45c23f3494f44b30ffead22db015e", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-aff45c23f3494f44b30ffead22db015e", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3AA+learning+outcome+can+be+broken+down+into+more+specific+learning+outcomes%2C+or+conversely+be+part+of+a+more+general+learning+outcome.%0A%0ANL%3A+Een+leeruitkomst+kan+worden+uitgewerkt+in+meer+specifieke+leeruitkomsten%2C+of+omgekeerd+deel+zijn+van+een+meer+algemene+leeruitkomst."), sourceid:"id-98f502ae1dc147fba93d79ee181be6cf", targetid:"id-98f502ae1dc147fba93d79ee181be6cf"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-efeaea5218684e4c823d0a7b6ea8e26f", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-efeaea5218684e4c823d0a7b6ea8e26f", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+A+programme+may+have+learning+outcomes%2C+but+it+does+not+have+to.+Learning+outcomes+do+not+have+to+be+linked+to+a+programme+or+course.%0AA+learning+outcome+may+relate+to+a+programme.+%0A%0ANL%3A+Een+programma+kan+maar+hoeft+geen+leeruitkomsten+te+hebben.+Leeruitkomsten+hoeven+niet+aan+een+programma+of+onderwijseenheid+te+zijn+verbonden.%0AEen+leeruitkomst+kan+betrekking+hebben+op+een+programma."), sourceid:"id-98f502ae1dc147fba93d79ee181be6cf", targetid:"id-8c15f665c7644dd58cfcf807a8babc76"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-b9e7831abdfb4fac9b9f336fcad39904", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-b9e7831abdfb4fac9b9f336fcad39904", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+A+course+may+or+may+not+have+learning+outcomes.+Learning+outcomes+do+not+have+to+be+linked+to+a+course.%0AThe+collection+of+learning+outcomes+for+acourse+is+the+connecting+element+between+the+learning+component+and+the+assessment+component%3B+at+the+same+time%2C+it+specifies+which+competences+are+to+be+learned+and+assessed+within+the+framework+of+the+course+%28constructive+alignment%29.%0A%0ANL%3A+Een+onderwijseenheid+kan+maar+hoeft+geen+leeruitkomsten+te+hebben.+Leeruitkomsten+hoeven+niet+aan+een+onderwijseenheid+te+zijn+verbonden.%0ADe+verzameling+leeruitkomsten+van+een+onderwijseenheid+is+het+verbindende+element+tussen+de+leercomponent+en+de+toetscomponent%2C+ze+specificeert+tegelijkertijd+welke+competenties+er+geleerd+en+getoetst+worden+in+het+kader+van+de+onderwijseenheid+%28constructive+alignment%29.%0A"), sourceid:"id-98f502ae1dc147fba93d79ee181be6cf", targetid:"id-b44b208c2bd343b293c608ee6663e3d6"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-c0ab9224d2ff4c87b8460f8403efa087", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-c0ab9224d2ff4c87b8460f8403efa087", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+A+learning+component+may+have+learning+outcomes.%0A%0ANL%3A+Een+leeronderdeel+kan+leeruitkomsten+hebben."), sourceid:"id-98f502ae1dc147fba93d79ee181be6cf", targetid:"id-190c4f52b63f466e8f039cffd98ea261"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-54ecae0cadd64906909d7c6a13f79fa3", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-54ecae0cadd64906909d7c6a13f79fa3", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+An+assessment+component+may+have+learning+outcomes.%0A%0ANL%3A+Een+toetsonderdeel+kan+leeruitkomsten+hebben."), sourceid:"id-98f502ae1dc147fba93d79ee181be6cf", targetid:"id-f373d2ec7e4a4c0e8d5cefb3467e2342"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-a3153c7e4361475d804543535da754fc", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-a3153c7e4361475d804543535da754fc", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+Credit+point+may+be+awarded+for+a+programme.%0A%0ANL%3A+Aan+een+programma+kunnen+studiepunten+worden+toegekend."), sourceid:"id-1f2e01d154854bdb810d1ef5b5bb756f", targetid:"id-8c15f665c7644dd58cfcf807a8babc76"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-09372bbb71934bb9b54424d4b4012702", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-09372bbb71934bb9b54424d4b4012702", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+Credit+point+may+be+awarded+for+a+course.%0A%0ANL%3A+Aan+een+onderwijseenheid+kunnen+studiepunten+worden+toegekend."), sourceid:"id-1f2e01d154854bdb810d1ef5b5bb756f", targetid:"id-b44b208c2bd343b293c608ee6663e3d6"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-348f43ddab574a5ba8086f909daae8be", contenttype:"AggregationRelationship"});
+										dataRelationships.push({id:"id-348f43ddab574a5ba8086f909daae8be", type:"AggregationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-a27b8ffbe70145c0bf38c259b1158faa", targetid:"id-f4b77ec47d244db68914129110d65b0c"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-bcaf5297eb554decaf8a515c81283ac7", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-bcaf5297eb554decaf8a515c81283ac7", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+In+the+event+that+a+course+does+not+contain+learning+and+assessment+components+and+only+has+learning+outcomes+%28whether+or+not+combined+with+credit+points%29%2C+we+refer+to+it+as+a+unit+of+learning+outcomes.+A+unit+of+learning+outcomes+is+a+specialisation+of+a+course.%0A%0ANL%3A+In+het+geval+dat+een+onderwijseenheid+geen+leer-+en+toetsonderdelen+bevat+en+alleen+leeruitkomsten+heeft+%28al+dan+niet+gecombineerd+met+studiepunten%29+spreken+we+over+een+eenheid+van+leeruitkomsten.+Een+eenheid+van+leeruitkomsten+is+een+specialisatie+van+een+onderwijseenheid."), sourceid:"id-f4b77ec47d244db68914129110d65b0c", targetid:"id-b44b208c2bd343b293c608ee6663e3d6"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-0c860abb9b2549119fdf879e2091a8f1", contenttype:"AggregationRelationship"});
+										dataRelationships.push({id:"id-0c860abb9b2549119fdf879e2091a8f1", type:"AggregationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-a27b8ffbe70145c0bf38c259b1158faa", targetid:"id-c64bc44082fb42be8d98330b215d5d30"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-b9b9212fb9a2466a9211cda7b68650fc", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-b9b9212fb9a2466a9211cda7b68650fc", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+A+learning+entitlement+specification+can+be+part+of+a+course+%28specification%29.+In+healthcare%2C+for+example%2C+skills+are+taught+and+assessed+at+the+course+level+in+order+to+be+able+and+allowed+to+perform+medical+procedures+%28EPAs+-+entrustable+professional+activities%3B+this+concept+focuses+on+tasks+and+responsibilities%29.%0A%0ANL%3A+Een+bevoegdheidsspecificatie+kan+onderdeel+zijn+van+een+onderwijseenheid%28specificatie%29.+In+de+gezondheidszorg+worden+bijvoorbeeld+op+onderwijseenheidsniveau+vaardigheden+aangeleerd+en+getoetst+om+medische+handelingen+te+kunnen+en+mogen+verrichten+%28EPA%27s+-+entrustable+professional+activities%3B+dit+concept+richt+zich+op+taken+en+verantwoordelijkheden%29."), sourceid:"id-b44b208c2bd343b293c608ee6663e3d6", targetid:"id-c64bc44082fb42be8d98330b215d5d30"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-64ba88d5c179424b83e8ff3244805dc3", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-64ba88d5c179424b83e8ff3244805dc3", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+A+learning+entitlement+specification+may+be+part+of+a+programme+%28specification%29.%0A%0ANL%3A+Een+bevoegdheidsspecificatie+kan+onderdeel+zijn+van+een+programma%28specificatie%29."), sourceid:"id-c64bc44082fb42be8d98330b215d5d30", targetid:"id-8c15f665c7644dd58cfcf807a8babc76"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-7323abd72edc4130becd99cabfe1b25d", contenttype:"AggregationRelationship"});
+										dataRelationships.push({id:"id-7323abd72edc4130becd99cabfe1b25d", type:"AggregationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-a27b8ffbe70145c0bf38c259b1158faa", targetid:"id-25c5d97fd1734840942b3b0771420720"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-632b6117fd274614b291a9f2500add14", contenttype:"AggregationRelationship"});
+										dataRelationships.push({id:"id-632b6117fd274614b291a9f2500add14", type:"AggregationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-a27b8ffbe70145c0bf38c259b1158faa", targetid:"id-f2c0b9ddec964a5983b04c846f9e6f0d"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-e0c1ff5ec579441e97c3f78467e40676", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-e0c1ff5ec579441e97c3f78467e40676", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+An+educational+programme+is+a+specialisation+of+a+programme.%0A%0ANL%3A+Een+opleiding+is+een+specialisatie+van+een+programma."), sourceid:"id-25c5d97fd1734840942b3b0771420720", targetid:"id-8c15f665c7644dd58cfcf807a8babc76"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-7951054280ba4485a80d4e0fdb36dfd8", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-7951054280ba4485a80d4e0fdb36dfd8", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+A+programme+may+have+admission+requirements.+Students+may+be+required+to+meet+certain+requirements+in+order+to+participate+in+a+programme.+%0A%0ANL%3A+Een+programma+kan+toelatingseisen+hebben.+Er+kunnen+eisen+aan+een+student+worden+gesteld+om+aan+een+programma+te+mogen+deelnemen.+"), sourceid:"id-f2c0b9ddec964a5983b04c846f9e6f0d", targetid:"id-8c15f665c7644dd58cfcf807a8babc76"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-ffb018f0d88a4b3aae2a586ab846a02d", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-ffb018f0d88a4b3aae2a586ab846a02d", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+A+course+may+have+admission+requirements.%0A%0ANL%3A+Een+onderwijseenheid+kan+toelatingseisen+hebben."), sourceid:"id-f2c0b9ddec964a5983b04c846f9e6f0d", targetid:"id-b44b208c2bd343b293c608ee6663e3d6"});
+									dataFoldersContent.push({folderid:"id-d522b9f2e255472a9d73c10ccc43dd37", contentid:"id-cd11d8c3bddd4eeab14bce37310e0769", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"id-cd11d8c3bddd4eeab14bce37310e0769", type:"AssociationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL("EN%3A+An+admission+requirement+may+be+described+in+terms+of+learning+outcomes.%0A%0ANL%3A+Een+toelatingseis+kan+zijn+beschreven+in+de+vorm+van+leeruitkomsten."), sourceid:"id-f2c0b9ddec964a5983b04c846f9e6f0d", targetid:"id-98f502ae1dc147fba93d79ee181be6cf"});
+
+								dataFoldersContent.push({folderid:"id-3fa9692051d841f6a91b927e2e071faf", contentid:"id-3ba436948c954190b70d393496915a5c", contenttype:"Folder"});
+								dataFolders.push({id:"id-3ba436948c954190b70d393496915a5c", type:"Folder", name:decodeURL("Views"), documentation:decodeURL("")});
+									dataFoldersContent.push({folderid:"id-3ba436948c954190b70d393496915a5c", contentid:"id-f5e80381290c4000bda8d17dbd6b1d41", contenttype:"Folder"});
+									dataFolders.push({id:"id-f5e80381290c4000bda8d17dbd6b1d41", type:"Folder", name:decodeURL("English"), documentation:decodeURL("")});
+										dataFoldersContent.push({folderid:"id-f5e80381290c4000bda8d17dbd6b1d41", contentid:"id-a823aa4965f04abb86376c3299f850c4", contenttype:"ArchimateDiagramModel"});
+											dataViews.push({id:"id-a823aa4965f04abb86376c3299f850c4", type:"ArchimateDiagramModel", name:decodeURL("Conceptual+Information+Model+Education+EN"), documentation:decodeURL("")});
+														dataProperties.push({conceptid:"id-a823aa4965f04abb86376c3299f850c4", propkey:decodeURL("Nederlandse+naam"), propvalue:decodeURL("Conceptueel+informatiemodel+onderwijs")});
+
+													dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-a27b8ffbe70145c0bf38c259b1158faa", contenttype:"Grouping"});
+															dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-f373d2ec7e4a4c0e8d5cefb3467e2342", contenttype:"BusinessObject"});
+															dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-190c4f52b63f466e8f039cffd98ea261", contenttype:"BusinessObject"});
+															dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-b44b208c2bd343b293c608ee6663e3d6", contenttype:"BusinessObject"});
+															dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-8c15f665c7644dd58cfcf807a8babc76", contenttype:"BusinessObject"});
+															dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-1f2e01d154854bdb810d1ef5b5bb756f", contenttype:"BusinessObject"});
+															dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-98f502ae1dc147fba93d79ee181be6cf", contenttype:"BusinessObject"});
+															dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-f4b77ec47d244db68914129110d65b0c", contenttype:"BusinessObject"});
+															dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-25c5d97fd1734840942b3b0771420720", contenttype:"BusinessObject"});
+															dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-f2c0b9ddec964a5983b04c846f9e6f0d", contenttype:"BusinessObject"});
+													
+													dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-aecb01410b534c9f8798b2c254d3c94d", contenttype:"Grouping"});
+													dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-5f37b6baf3cc4b9ca30c2d76ca120c7d", contenttype:"Grouping"});
+													dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-c64bc44082fb42be8d98330b215d5d30", contenttype:"BusinessObject"});
+
+																			dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-afe11d84dcc545798f96cb8bcce36298", contenttype:"AggregationRelationship"});
+																			dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-34bf7df46c474d0388ef170e0bd82edf", contenttype:"AggregationRelationship"});
+																			dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-a7bc14b5dce84927ac66b72b59443963", contenttype:"AggregationRelationship"});
+																			dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-8e72354a62594ab5bffaa72a7d38bf84", contenttype:"AggregationRelationship"});
+																			dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-edc9efccaa194e658e6488d5bc1619f8", contenttype:"AggregationRelationship"});
+																			dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-b60f65b9a5b644bf8927600582ff2ec0", contenttype:"AggregationRelationship"});
+																			dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-348f43ddab574a5ba8086f909daae8be", contenttype:"AggregationRelationship"});
+																			dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-7323abd72edc4130becd99cabfe1b25d", contenttype:"AggregationRelationship"});
+																			dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-632b6117fd274614b291a9f2500add14", contenttype:"AggregationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-3d61919c9c6a4a688e3ca80521152cf2", contenttype:"AssociationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-0f8701c4a5474cdd8b1676e48929aff8", contenttype:"AssociationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-e359c4bc735546759d831b248cf14c43", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-12e47f7507384f378f81b2244003dfec", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-b9b9212fb9a2466a9211cda7b68650fc", contenttype:"AssociationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-de798bc1e7de42bc96cb011dcd324a11", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-32a55dc4ff974712b0bd3c193b670771", contenttype:"AssociationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-a3153c7e4361475d804543535da754fc", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-09372bbb71934bb9b54424d4b4012702", contenttype:"AssociationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-aff45c23f3494f44b30ffead22db015e", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-efeaea5218684e4c823d0a7b6ea8e26f", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-b9e7831abdfb4fac9b9f336fcad39904", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-c0ab9224d2ff4c87b8460f8403efa087", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-54ecae0cadd64906909d7c6a13f79fa3", contenttype:"AssociationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-bcaf5297eb554decaf8a515c81283ac7", contenttype:"AssociationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-e0c1ff5ec579441e97c3f78467e40676", contenttype:"AssociationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-7951054280ba4485a80d4e0fdb36dfd8", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-ffb018f0d88a4b3aae2a586ab846a02d", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-cd11d8c3bddd4eeab14bce37310e0769", contenttype:"AssociationRelationship"});
+
+													
+																			dataViewsContent.push({viewid:"id-a823aa4965f04abb86376c3299f850c4", contentid:"id-64ba88d5c179424b83e8ff3244805dc3", contenttype:"AssociationRelationship"});
+
+
+
+									dataFoldersContent.push({folderid:"id-3ba436948c954190b70d393496915a5c", contentid:"id-0768c4cac5484bdc950f41cda966fa24", contenttype:"Folder"});
+									dataFolders.push({id:"id-0768c4cac5484bdc950f41cda966fa24", type:"Folder", name:decodeURL("Nederlands"), documentation:decodeURL("")});
+										dataFoldersContent.push({folderid:"id-0768c4cac5484bdc950f41cda966fa24", contentid:"id-b71992b20e164674a9a169d6ed4d3c53", contenttype:"ArchimateDiagramModel"});
+											dataViews.push({id:"id-b71992b20e164674a9a169d6ed4d3c53", type:"ArchimateDiagramModel", name:decodeURL("Conceptueel+Informatie+Model+Onderwijs+NL"), documentation:decodeURL("")});
+														dataProperties.push({conceptid:"id-b71992b20e164674a9a169d6ed4d3c53", propkey:decodeURL("Nederlandse+naam"), propvalue:decodeURL("Conceptueel+informatiemodel+onderwijs")});
+
+													dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-a27b8ffbe70145c0bf38c259b1158faa", contenttype:"Grouping"});
+															dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-f373d2ec7e4a4c0e8d5cefb3467e2342", contenttype:"BusinessObject"});
+															dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-190c4f52b63f466e8f039cffd98ea261", contenttype:"BusinessObject"});
+															dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-b44b208c2bd343b293c608ee6663e3d6", contenttype:"BusinessObject"});
+															dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-8c15f665c7644dd58cfcf807a8babc76", contenttype:"BusinessObject"});
+															dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-1f2e01d154854bdb810d1ef5b5bb756f", contenttype:"BusinessObject"});
+															dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-98f502ae1dc147fba93d79ee181be6cf", contenttype:"BusinessObject"});
+															dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-f4b77ec47d244db68914129110d65b0c", contenttype:"BusinessObject"});
+															dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-25c5d97fd1734840942b3b0771420720", contenttype:"BusinessObject"});
+															dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-f2c0b9ddec964a5983b04c846f9e6f0d", contenttype:"BusinessObject"});
+													
+													dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-aecb01410b534c9f8798b2c254d3c94d", contenttype:"Grouping"});
+													dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-5f37b6baf3cc4b9ca30c2d76ca120c7d", contenttype:"Grouping"});
+													dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-c64bc44082fb42be8d98330b215d5d30", contenttype:"BusinessObject"});
+
+																			dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-afe11d84dcc545798f96cb8bcce36298", contenttype:"AggregationRelationship"});
+																			dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-34bf7df46c474d0388ef170e0bd82edf", contenttype:"AggregationRelationship"});
+																			dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-a7bc14b5dce84927ac66b72b59443963", contenttype:"AggregationRelationship"});
+																			dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-8e72354a62594ab5bffaa72a7d38bf84", contenttype:"AggregationRelationship"});
+																			dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-edc9efccaa194e658e6488d5bc1619f8", contenttype:"AggregationRelationship"});
+																			dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-b60f65b9a5b644bf8927600582ff2ec0", contenttype:"AggregationRelationship"});
+																			dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-348f43ddab574a5ba8086f909daae8be", contenttype:"AggregationRelationship"});
+																			dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-7323abd72edc4130becd99cabfe1b25d", contenttype:"AggregationRelationship"});
+																			dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-632b6117fd274614b291a9f2500add14", contenttype:"AggregationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-3d61919c9c6a4a688e3ca80521152cf2", contenttype:"AssociationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-0f8701c4a5474cdd8b1676e48929aff8", contenttype:"AssociationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-e359c4bc735546759d831b248cf14c43", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-12e47f7507384f378f81b2244003dfec", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-b9b9212fb9a2466a9211cda7b68650fc", contenttype:"AssociationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-de798bc1e7de42bc96cb011dcd324a11", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-32a55dc4ff974712b0bd3c193b670771", contenttype:"AssociationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-a3153c7e4361475d804543535da754fc", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-09372bbb71934bb9b54424d4b4012702", contenttype:"AssociationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-aff45c23f3494f44b30ffead22db015e", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-efeaea5218684e4c823d0a7b6ea8e26f", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-b9e7831abdfb4fac9b9f336fcad39904", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-c0ab9224d2ff4c87b8460f8403efa087", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-54ecae0cadd64906909d7c6a13f79fa3", contenttype:"AssociationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-bcaf5297eb554decaf8a515c81283ac7", contenttype:"AssociationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-e0c1ff5ec579441e97c3f78467e40676", contenttype:"AssociationRelationship"});
+
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-7951054280ba4485a80d4e0fdb36dfd8", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-ffb018f0d88a4b3aae2a586ab846a02d", contenttype:"AssociationRelationship"});
+																					dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-cd11d8c3bddd4eeab14bce37310e0769", contenttype:"AssociationRelationship"});
+
+													
+																			dataViewsContent.push({viewid:"id-b71992b20e164674a9a169d6ed4d3c53", contentid:"id-64ba88d5c179424b83e8ff3244805dc3", contenttype:"AssociationRelationship"});
+
+
+
+
+
+
+
+
+						    alasql('CREATE TABLE Elements');
+						    alasql('CREATE TABLE Properties');
+						    alasql('CREATE TABLE Relationships');
+						    alasql('CREATE TABLE Views');
+						    alasql('CREATE TABLE ViewsContent');
+						    alasql('CREATE TABLE Folders');
+						    alasql('CREATE TABLE FoldersContent');
+
+						    alasql.tables.Elements.data = dataElements;
+						    alasql.tables.Properties.data = dataProperties;
+						    alasql.tables.Relationships.data = dataRelationships;
+						    alasql.tables.Views.data = dataViews;
+						    alasql.tables.ViewsContent.data = dataViewsContent;
+						    alasql.tables.Folders.data = dataFolders;
+						    alasql.tables.FoldersContent.data = dataFoldersContent;
+						</script> 
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
