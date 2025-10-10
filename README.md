@@ -1,5 +1,5 @@
 # HORA 3.0 development
-The site is live at https://horasurf.github.io/HORA-3.0-development-environment/
+The site is live at [https://horasurf.github.io/HORA-3.0-development-environment/](https://horasurf.github.io/HORA-3.0-development-environment/)
 
 The development environment shows the latest status of the models in development.
 
