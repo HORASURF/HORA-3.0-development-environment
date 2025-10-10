@@ -1,0 +1,1668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="id-3fa9692051d841f6a91b927e2e071faf">
+  <name xml:lang="en">20251010a HORA 3.0 CIM Onderwijs</name>
+  <elements>
+    <element identifier="id-f373d2ec7e4a4c0e8d5cefb3467e2342" xsi:type="BusinessObject">
+      <name xml:lang="en">Assessment component (specification)</name>
+      <documentation xml:lang="en">EN: The specification of the part of a course unit that determines which competences the student has acquired, leading to a summative assessment.
+
+NL: De specificatie van het deel van een onderwijseenheid waarmee wordt vastgesteld over welke competenties de student beschikt, leidend tot een summatieve beoordeling.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">Toetsonderdeel(-specificatie)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-190c4f52b63f466e8f039cffd98ea261" xsi:type="BusinessObject">
+      <name xml:lang="en">Learning component (specification)</name>
+      <documentation xml:lang="en">EN: The specification of the part of a course that enables the student to acquire competences.
+
+NL: De specificatie van het deel van een onderwijseenheid waarmee de student competenties kan verwerven.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">Leeronderdeel(-specificatie)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-b44b208c2bd343b293c608ee6663e3d6" xsi:type="BusinessObject">
+      <name xml:lang="en">Course (specification)</name>
+      <documentation xml:lang="en">EN: The specification of the fundamental unit in which education is designed and offered, in the form of a coherent system of one or more (intended) learning outcomes, learning components or assessment components.
+
+NL: De specificatie van de fundamentele eenheid waarin onderwijs wordt ontworpen en aangeboden, in de vorm van een samenhangend stelsel van één of meer (beoogde) leeruitkomsten, leeronderdelen of toetsonderdelen.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">Onderwijseenheid(-specificatie)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-8c15f665c7644dd58cfcf807a8babc76" xsi:type="BusinessObject">
+      <name xml:lang="en">Programme (specification)</name>
+      <documentation xml:lang="en">EN: The specification of a coherent collection of one or more (sub)programmes, learning outcomes or courses developed by the education provider.
+
+NL: De specificatie van een door de onderwijsaanbieder ontwikkelde samenhangende verzameling van één of meer (deel)programma’s, leeruitkomsten of onderwijseenheden.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">Programma(-specificatie)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-1f2e01d154854bdb810d1ef5b5bb756f" xsi:type="BusinessObject">
+      <name xml:lang="en">Credit point</name>
+      <documentation xml:lang="en">EN: An assessment of the effort required of the student to complete a programme or course, based on the time that an average student would need to spend on it, according to the education provider, in order to achieve a satisfactory programme or course result.
+
+NL: Een waardering van de inspanning die de uitvoering van een programma of onderwijseenheid vraagt van de student, gebaseerd op de tijd die een gemiddelde student er volgens de onderwijsaanbieder aan zou moeten besteden om een voldoende programma- of onderwijseenheidresultaat te behalen.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">Studiepunt</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-98f502ae1dc147fba93d79ee181be6cf" xsi:type="BusinessObject">
+      <name xml:lang="en">(Intended) learning outcome</name>
+      <documentation xml:lang="en">EN: The description of competencies that the student should ideally possess after completing a programme or course.
+
+NL: De beschrijving van competenties waarover de student idealiter beschikt na het afronden van een programma of onderwijseenheid.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">(Beoogde) leeruitkomst</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-f4b77ec47d244db68914129110d65b0c" xsi:type="BusinessObject">
+      <name xml:lang="en">Unit of learning outcomes (specification)</name>
+      <documentation xml:lang="en">EN: A course without learning and assessment components that is specified by (intended) learning outcomes.
+
+NL: Een onderwijseenheid zonder leer- en toetsonderdelen die wordt gespecificeerd door (beoogde) leeruitkomsten.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">Eenheid van leeruitkomsten</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-c64bc44082fb42be8d98330b215d5d30" xsi:type="BusinessObject">
+      <name xml:lang="en">Learning entitlement specification</name>
+      <documentation xml:lang="en">EN: The specification of the rights arising from the successful completion of a course or programme.
+
+NL: De specificatie van de rechten die voortvloeien uit het met een voldoende resultaat afsluiten van een onderwijseenheid of programma.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">Bevoegdheids-specificatie</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-25c5d97fd1734840942b3b0771420720" xsi:type="BusinessObject">
+      <name xml:lang="en">Educational programme</name>
+      <documentation xml:lang="en">EN: A programme established by an educational institution with a status laid down in the WHW.
+
+NL: Een door een onderwijsinstelling vastgesteld programma met een in de WHW vastgelegde status.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">Opleiding</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-f2c0b9ddec964a5983b04c846f9e6f0d" xsi:type="BusinessObject">
+      <name xml:lang="en">Admission requirement</name>
+      <documentation xml:lang="en">EN: The specification of the credentials or competencies that a student must possess in order to be allowed to follow a programme or course.
+
+NL: De specificatie van de credentials of competenties waarover een student dient te beschikken om een programma of onderwijseenheid te mogen volgen.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">Toelatingseis</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-a27b8ffbe70145c0bf38c259b1158faa" xsi:type="Grouping">
+      <name xml:lang="en">Education specification</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">Onderwijsspecificatie</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-aecb01410b534c9f8798b2c254d3c94d" xsi:type="Grouping">
+      <name xml:lang="en">Education offerings</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">Onderwijsaanbod</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-5f37b6baf3cc4b9ca30c2d76ca120c7d" xsi:type="Grouping">
+      <name xml:lang="en">Offering association</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">Onderwijsverbintenis</value>
+        </property>
+      </properties>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="id-12e47f7507384f378f81b2244003dfec" source="id-b44b208c2bd343b293c608ee6663e3d6" target="id-f373d2ec7e4a4c0e8d5cefb3467e2342" xsi:type="Association">
+      <documentation xml:lang="en">EN: A course does not have to contain an assessment component, but an assessment component must belong to at least one course.
+An assessment component (specification) is always related to a course (specification): an assessment always has a reference point in the form of a course: what is being taught (the learning component specification) and/or learning outcomes; elements are related to each other within the course.
+The model allows a student not to follow the learning component, but to follow the assessment component.
+
+NL: Een onderwijseenheid hoeft geen toetsonderdeel te bevatten, maar een toetsonderdeel hoort wel minimaal bij één onderwijseenheid.
+Een toetsonderdeel(specificatie) is altijd gerelateerd aan onderwijseenheid(specificatie): een toets heeft altijd een referentiepunt in de vorm van een onderwijseenheid: dat wat geleerd wordt (de leeronderdeelspecificatie) en/of leeruitkomsten; in de onderwijseenheid worden elementen aan elkaar gerelateerd.
+Het model staat toe dat een student niet het leeronderdeel volgt, maar wel het toetsonderdeel.</documentation>
+    </relationship>
+    <relationship identifier="id-afe11d84dcc545798f96cb8bcce36298" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-f373d2ec7e4a4c0e8d5cefb3467e2342" xsi:type="Aggregation" />
+    <relationship identifier="id-34bf7df46c474d0388ef170e0bd82edf" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-190c4f52b63f466e8f039cffd98ea261" xsi:type="Aggregation" />
+    <relationship identifier="id-a7bc14b5dce84927ac66b72b59443963" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-b44b208c2bd343b293c608ee6663e3d6" xsi:type="Aggregation" />
+    <relationship identifier="id-e359c4bc735546759d831b248cf14c43" source="id-b44b208c2bd343b293c608ee6663e3d6" target="id-190c4f52b63f466e8f039cffd98ea261" xsi:type="Association">
+      <documentation xml:lang="en">EN: A course does not necessarily have to contain learning components. A learning component may exist independently of a course if it concerns non-formal education (refresher courses, MOOCs, HOVO).
+
+NL: Een onderwijseenheid hoeft geen leeronderdelen te bevatten. Een leeronderdeel kan los van een onderwijseenheid bestaan indien het non-formeel onderwijs betreft (bijspijkercursussen, MOOC's, HOVO).</documentation>
+    </relationship>
+    <relationship identifier="id-0f8701c4a5474cdd8b1676e48929aff8" source="id-190c4f52b63f466e8f039cffd98ea261" target="id-190c4f52b63f466e8f039cffd98ea261" xsi:type="Association">
+      <documentation xml:lang="en">EN: A learning component may consist of smaller parts or be part of a composite learning component.
+
+NL: Een leeronderdeel kan uit kleinere onderdelen bestaan of deel zijn van een samengesteld leeronderdeel.</documentation>
+    </relationship>
+    <relationship identifier="id-8e72354a62594ab5bffaa72a7d38bf84" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-8c15f665c7644dd58cfcf807a8babc76" xsi:type="Aggregation" />
+    <relationship identifier="id-de798bc1e7de42bc96cb011dcd324a11" source="id-8c15f665c7644dd58cfcf807a8babc76" target="id-b44b208c2bd343b293c608ee6663e3d6" xsi:type="Association">
+      <documentation xml:lang="en">EN: A course unit can be developed without being part of a programme and can be included in multiple programmes.
+A programme that does not contain course units can be defined by learning outcomes or credit points. Such a programme allows students to choose course units themselves in order to achieve the programme's learning outcomes or credits. 
+If a programme does not contain any educational units, it must have learning outcomes or credits that define how the programme can be “filled” with educational units.
+In the conceptual information model, it is not possible to model this “business rule” with mere relationships and cardinality. The application rule below overcomes this limitation of the conceptual information model.
+
+NL: Een onderwijseenheid kan worden ontwikkeld zonder dat het deel uitmaakt van een programma, en kan in meerdere programma's zijn opgenomen.
+Een programma dat geen onderwijseenheden bevat kan eventueel gedefinieerd worden door leeruitkomsten of studiepunten. Een dergelijk programma geeft een student de mogelijkheid om zelf onderwijseenheden te kiezen waarmee de leeruitkomsten of studiepunten van het programma behaald kunnen worden. 
+Indien een programma geen onderwijseenheden bevat, moet het wel leeruitkomsten of studiepunten hebben waarmee wordt ingekaderd hoe het programma kan worden 'gevuld' met onderwijseenheden.
+In het conceptuele informatiemodel is het niet mogelijk om deze 'bedrijfsregel' met louter relaties en kardinaliteit te modelleren. Met de toepassingsregel hieronder wordt deze beperking van het conceptuele informatiemodel ondervangen.</documentation>
+    </relationship>
+    <relationship identifier="id-3d61919c9c6a4a688e3ca80521152cf2" source="id-f373d2ec7e4a4c0e8d5cefb3467e2342" target="id-f373d2ec7e4a4c0e8d5cefb3467e2342" xsi:type="Association">
+      <documentation xml:lang="en">EN: An assessment component may consist of smaller parts or be part of a composite assessment component.
+
+NL: Een toetsonderdeel kan uit kleinere onderdelen bestaan of deel zijn van een samengesteld toetsonderdeel.</documentation>
+    </relationship>
+    <relationship identifier="id-32a55dc4ff974712b0bd3c193b670771" source="id-8c15f665c7644dd58cfcf807a8babc76" target="id-8c15f665c7644dd58cfcf807a8babc76" xsi:type="Association">
+      <documentation xml:lang="en">EN:A programme is a recursive object. It can consist of (sub)programmes or be part of an overarching programme itself.
+
+NL: Een programma is een recursief object. Het kan bestaan uit (deel)programma's of zelf deel zijn van een overkoepelend programma.</documentation>
+    </relationship>
+    <relationship identifier="id-a0764b5f5e9d42b1a5ef9000770007ce" source="id-1f2e01d154854bdb810d1ef5b5bb756f" target="id-1f2e01d154854bdb810d1ef5b5bb756f" xsi:type="Association" />
+    <relationship identifier="id-edc9efccaa194e658e6488d5bc1619f8" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-1f2e01d154854bdb810d1ef5b5bb756f" xsi:type="Aggregation" />
+    <relationship identifier="id-b60f65b9a5b644bf8927600582ff2ec0" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-98f502ae1dc147fba93d79ee181be6cf" xsi:type="Aggregation" />
+    <relationship identifier="id-aff45c23f3494f44b30ffead22db015e" source="id-98f502ae1dc147fba93d79ee181be6cf" target="id-98f502ae1dc147fba93d79ee181be6cf" xsi:type="Association">
+      <documentation xml:lang="en">EN:A learning outcome can be broken down into more specific learning outcomes, or conversely be part of a more general learning outcome.
+
+NL: Een leeruitkomst kan worden uitgewerkt in meer specifieke leeruitkomsten, of omgekeerd deel zijn van een meer algemene leeruitkomst.</documentation>
+    </relationship>
+    <relationship identifier="id-efeaea5218684e4c823d0a7b6ea8e26f" source="id-98f502ae1dc147fba93d79ee181be6cf" target="id-8c15f665c7644dd58cfcf807a8babc76" xsi:type="Association">
+      <documentation xml:lang="en">EN: A programme may have learning outcomes, but it does not have to. Learning outcomes do not have to be linked to a programme or course.
+A learning outcome may relate to a programme. 
+
+NL: Een programma kan maar hoeft geen leeruitkomsten te hebben. Leeruitkomsten hoeven niet aan een programma of onderwijseenheid te zijn verbonden.
+Een leeruitkomst kan betrekking hebben op een programma.</documentation>
+    </relationship>
+    <relationship identifier="id-b9e7831abdfb4fac9b9f336fcad39904" source="id-98f502ae1dc147fba93d79ee181be6cf" target="id-b44b208c2bd343b293c608ee6663e3d6" xsi:type="Association">
+      <documentation xml:lang="en">EN: A course may or may not have learning outcomes. Learning outcomes do not have to be linked to a course.
+The collection of learning outcomes for acourse is the connecting element between the learning component and the assessment component; at the same time, it specifies which competences are to be learned and assessed within the framework of the course (constructive alignment).
+
+NL: Een onderwijseenheid kan maar hoeft geen leeruitkomsten te hebben. Leeruitkomsten hoeven niet aan een onderwijseenheid te zijn verbonden.
+De verzameling leeruitkomsten van een onderwijseenheid is het verbindende element tussen de leercomponent en de toetscomponent, ze specificeert tegelijkertijd welke competenties er geleerd en getoetst worden in het kader van de onderwijseenheid (constructive alignment).</documentation>
+    </relationship>
+    <relationship identifier="id-c0ab9224d2ff4c87b8460f8403efa087" source="id-98f502ae1dc147fba93d79ee181be6cf" target="id-190c4f52b63f466e8f039cffd98ea261" xsi:type="Association">
+      <documentation xml:lang="en">EN: A learning component may have learning outcomes.
+
+NL: Een leeronderdeel kan leeruitkomsten hebben.</documentation>
+    </relationship>
+    <relationship identifier="id-54ecae0cadd64906909d7c6a13f79fa3" source="id-98f502ae1dc147fba93d79ee181be6cf" target="id-f373d2ec7e4a4c0e8d5cefb3467e2342" xsi:type="Association">
+      <documentation xml:lang="en">EN: An assessment component may have learning outcomes.
+
+NL: Een toetsonderdeel kan leeruitkomsten hebben.</documentation>
+    </relationship>
+    <relationship identifier="id-a3153c7e4361475d804543535da754fc" source="id-1f2e01d154854bdb810d1ef5b5bb756f" target="id-8c15f665c7644dd58cfcf807a8babc76" xsi:type="Association">
+      <documentation xml:lang="en">EN: Credit point may be awarded for a programme.
+
+NL: Aan een programma kunnen studiepunten worden toegekend.</documentation>
+    </relationship>
+    <relationship identifier="id-09372bbb71934bb9b54424d4b4012702" source="id-1f2e01d154854bdb810d1ef5b5bb756f" target="id-b44b208c2bd343b293c608ee6663e3d6" xsi:type="Association">
+      <documentation xml:lang="en">EN: Credit point may be awarded for a course.
+
+NL: Aan een onderwijseenheid kunnen studiepunten worden toegekend.</documentation>
+    </relationship>
+    <relationship identifier="id-348f43ddab574a5ba8086f909daae8be" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-f4b77ec47d244db68914129110d65b0c" xsi:type="Aggregation" />
+    <relationship identifier="id-bcaf5297eb554decaf8a515c81283ac7" source="id-f4b77ec47d244db68914129110d65b0c" target="id-b44b208c2bd343b293c608ee6663e3d6" xsi:type="Association">
+      <documentation xml:lang="en">EN: In the event that a course does not contain learning and assessment components and only has learning outcomes (whether or not combined with credit points), we refer to it as a unit of learning outcomes. A unit of learning outcomes is a specialisation of a course.
+
+NL: In het geval dat een onderwijseenheid geen leer- en toetsonderdelen bevat en alleen leeruitkomsten heeft (al dan niet gecombineerd met studiepunten) spreken we over een eenheid van leeruitkomsten. Een eenheid van leeruitkomsten is een specialisatie van een onderwijseenheid.</documentation>
+    </relationship>
+    <relationship identifier="id-0c860abb9b2549119fdf879e2091a8f1" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-c64bc44082fb42be8d98330b215d5d30" xsi:type="Aggregation" />
+    <relationship identifier="id-b9b9212fb9a2466a9211cda7b68650fc" source="id-b44b208c2bd343b293c608ee6663e3d6" target="id-c64bc44082fb42be8d98330b215d5d30" xsi:type="Association">
+      <documentation xml:lang="en">EN: A learning entitlement specification can be part of a course (specification). In healthcare, for example, skills are taught and assessed at the course level in order to be able and allowed to perform medical procedures (EPAs - entrustable professional activities; this concept focuses on tasks and responsibilities).
+
+NL: Een bevoegdheidsspecificatie kan onderdeel zijn van een onderwijseenheid(specificatie). In de gezondheidszorg worden bijvoorbeeld op onderwijseenheidsniveau vaardigheden aangeleerd en getoetst om medische handelingen te kunnen en mogen verrichten (EPA's - entrustable professional activities; dit concept richt zich op taken en verantwoordelijkheden).</documentation>
+    </relationship>
+    <relationship identifier="id-64ba88d5c179424b83e8ff3244805dc3" source="id-c64bc44082fb42be8d98330b215d5d30" target="id-8c15f665c7644dd58cfcf807a8babc76" xsi:type="Association">
+      <documentation xml:lang="en">EN: A learning entitlement specification may be part of a programme (specification).
+
+NL: Een bevoegdheidsspecificatie kan onderdeel zijn van een programma(specificatie).</documentation>
+    </relationship>
+    <relationship identifier="id-7323abd72edc4130becd99cabfe1b25d" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-25c5d97fd1734840942b3b0771420720" xsi:type="Aggregation" />
+    <relationship identifier="id-632b6117fd274614b291a9f2500add14" source="id-a27b8ffbe70145c0bf38c259b1158faa" target="id-f2c0b9ddec964a5983b04c846f9e6f0d" xsi:type="Aggregation" />
+    <relationship identifier="id-e0c1ff5ec579441e97c3f78467e40676" source="id-25c5d97fd1734840942b3b0771420720" target="id-8c15f665c7644dd58cfcf807a8babc76" xsi:type="Association">
+      <documentation xml:lang="en">EN: An educational programme is a specialisation of a programme.
+
+NL: Een opleiding is een specialisatie van een programma.</documentation>
+    </relationship>
+    <relationship identifier="id-7951054280ba4485a80d4e0fdb36dfd8" source="id-f2c0b9ddec964a5983b04c846f9e6f0d" target="id-8c15f665c7644dd58cfcf807a8babc76" xsi:type="Association">
+      <documentation xml:lang="en">EN: A programme may have admission requirements. Students may be required to meet certain requirements in order to participate in a programme. 
+
+NL: Een programma kan toelatingseisen hebben. Er kunnen eisen aan een student worden gesteld om aan een programma te mogen deelnemen.</documentation>
+    </relationship>
+    <relationship identifier="id-ffb018f0d88a4b3aae2a586ab846a02d" source="id-f2c0b9ddec964a5983b04c846f9e6f0d" target="id-b44b208c2bd343b293c608ee6663e3d6" xsi:type="Association">
+      <documentation xml:lang="en">EN: A course may have admission requirements.
+
+NL: Een onderwijseenheid kan toelatingseisen hebben.</documentation>
+    </relationship>
+    <relationship identifier="id-cd11d8c3bddd4eeab14bce37310e0769" source="id-f2c0b9ddec964a5983b04c846f9e6f0d" target="id-98f502ae1dc147fba93d79ee181be6cf" xsi:type="Association">
+      <documentation xml:lang="en">EN: An admission requirement may be described in terms of learning outcomes.
+
+NL: Een toelatingseis kan zijn beschreven in de vorm van leeruitkomsten.</documentation>
+    </relationship>
+  </relationships>
+  <organizations>
+    <item>
+      <label xml:lang="en">Business</label>
+      <item identifierRef="id-f373d2ec7e4a4c0e8d5cefb3467e2342" />
+      <item identifierRef="id-190c4f52b63f466e8f039cffd98ea261" />
+      <item identifierRef="id-b44b208c2bd343b293c608ee6663e3d6" />
+      <item identifierRef="id-8c15f665c7644dd58cfcf807a8babc76" />
+      <item identifierRef="id-1f2e01d154854bdb810d1ef5b5bb756f" />
+      <item identifierRef="id-98f502ae1dc147fba93d79ee181be6cf" />
+      <item identifierRef="id-f4b77ec47d244db68914129110d65b0c" />
+      <item identifierRef="id-c64bc44082fb42be8d98330b215d5d30" />
+      <item identifierRef="id-25c5d97fd1734840942b3b0771420720" />
+      <item identifierRef="id-f2c0b9ddec964a5983b04c846f9e6f0d" />
+    </item>
+    <item>
+      <label xml:lang="en">Other</label>
+      <item identifierRef="id-a27b8ffbe70145c0bf38c259b1158faa" />
+      <item identifierRef="id-aecb01410b534c9f8798b2c254d3c94d" />
+      <item identifierRef="id-5f37b6baf3cc4b9ca30c2d76ca120c7d" />
+    </item>
+    <item>
+      <label xml:lang="en">Relations</label>
+      <item identifierRef="id-12e47f7507384f378f81b2244003dfec" />
+      <item identifierRef="id-afe11d84dcc545798f96cb8bcce36298" />
+      <item identifierRef="id-34bf7df46c474d0388ef170e0bd82edf" />
+      <item identifierRef="id-a7bc14b5dce84927ac66b72b59443963" />
+      <item identifierRef="id-e359c4bc735546759d831b248cf14c43" />
+      <item identifierRef="id-0f8701c4a5474cdd8b1676e48929aff8" />
+      <item identifierRef="id-8e72354a62594ab5bffaa72a7d38bf84" />
+      <item identifierRef="id-de798bc1e7de42bc96cb011dcd324a11" />
+      <item identifierRef="id-3d61919c9c6a4a688e3ca80521152cf2" />
+      <item identifierRef="id-32a55dc4ff974712b0bd3c193b670771" />
+      <item identifierRef="id-a0764b5f5e9d42b1a5ef9000770007ce" />
+      <item identifierRef="id-edc9efccaa194e658e6488d5bc1619f8" />
+      <item identifierRef="id-b60f65b9a5b644bf8927600582ff2ec0" />
+      <item identifierRef="id-aff45c23f3494f44b30ffead22db015e" />
+      <item identifierRef="id-efeaea5218684e4c823d0a7b6ea8e26f" />
+      <item identifierRef="id-b9e7831abdfb4fac9b9f336fcad39904" />
+      <item identifierRef="id-c0ab9224d2ff4c87b8460f8403efa087" />
+      <item identifierRef="id-54ecae0cadd64906909d7c6a13f79fa3" />
+      <item identifierRef="id-a3153c7e4361475d804543535da754fc" />
+      <item identifierRef="id-09372bbb71934bb9b54424d4b4012702" />
+      <item identifierRef="id-348f43ddab574a5ba8086f909daae8be" />
+      <item identifierRef="id-bcaf5297eb554decaf8a515c81283ac7" />
+      <item identifierRef="id-0c860abb9b2549119fdf879e2091a8f1" />
+      <item identifierRef="id-b9b9212fb9a2466a9211cda7b68650fc" />
+      <item identifierRef="id-64ba88d5c179424b83e8ff3244805dc3" />
+      <item identifierRef="id-7323abd72edc4130becd99cabfe1b25d" />
+      <item identifierRef="id-632b6117fd274614b291a9f2500add14" />
+      <item identifierRef="id-e0c1ff5ec579441e97c3f78467e40676" />
+      <item identifierRef="id-7951054280ba4485a80d4e0fdb36dfd8" />
+      <item identifierRef="id-ffb018f0d88a4b3aae2a586ab846a02d" />
+      <item identifierRef="id-cd11d8c3bddd4eeab14bce37310e0769" />
+    </item>
+    <item>
+      <label xml:lang="en">Views</label>
+      <item>
+        <label xml:lang="en">English</label>
+        <item identifierRef="id-a823aa4965f04abb86376c3299f850c4" />
+      </item>
+      <item>
+        <label xml:lang="en">Nederlands</label>
+        <item identifierRef="id-b71992b20e164674a9a169d6ed4d3c53" />
+      </item>
+    </item>
+  </organizations>
+  <propertyDefinitions>
+    <propertyDefinition identifier="propid-1" type="string">
+      <name>Nederlandse naam</name>
+    </propertyDefinition>
+  </propertyDefinitions>
+  <views>
+    <diagrams>
+      <view identifier="id-a823aa4965f04abb86376c3299f850c4" xsi:type="Diagram" viewpoint="Information Structure">
+        <name xml:lang="en">Conceptual Information Model Education EN</name>
+        <properties>
+          <property propertyDefinitionRef="propid-1">
+            <value xml:lang="en">Conceptueel informatiemodel onderwijs</value>
+          </property>
+        </properties>
+        <node identifier="id-346dd5dd5ea4451fb91e00456f3931b6" elementRef="id-a27b8ffbe70145c0bf38c259b1158faa" xsi:type="Element" x="1632" y="1176" w="2257" h="637">
+          <style>
+            <fillColor r="141" g="249" b="0" a="6" />
+            <lineColor r="0" g="0" b="0" a="100" />
+            <font name="Lucida Grande" size="12" style="bold">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-b3bf484c57f147d184b1386c09b031fc" elementRef="id-f373d2ec7e4a4c0e8d5cefb3467e2342" xsi:type="Element" x="3576" y="1704" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-c489a2670bec4c09b05bfc1786d06f24" xsi:type="Label" x="3451" y="1704" w="97" h="28">
+            <label xml:lang="en">→ has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-65eba1b33e834016b1fabb6baba6aaa2" xsi:type="Label" x="3432" y="1730" w="135" h="33">
+            <label xml:lang="en">← is part of (1..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-9f199eef602249138afd73c4aba87cfa" elementRef="id-190c4f52b63f466e8f039cffd98ea261" xsi:type="Element" x="3264" y="1536" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-68d65af0c1b143048b4b2f1ecbea0195" elementRef="id-b44b208c2bd343b293c608ee6663e3d6" xsi:type="Element" x="2868" y="1368" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-0b07ef4d4a1c4193b210d1fe6d98bc6d" xsi:type="Label" x="3139" y="1546" w="97" h="28">
+            <label xml:lang="en">→ has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-15e3b566241243f0b1a89e20eb124b56" xsi:type="Label" x="3120" y="1572" w="135" h="33">
+            <label xml:lang="en">← is part of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-a1dcd283cd6542b9a7ea249887e51932" xsi:type="Label" x="3168" y="1512" w="127" h="22">
+            <label xml:lang="en">→ consists of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-d21c41fd20e145738b628610a56195e4" elementRef="id-8c15f665c7644dd58cfcf807a8babc76" xsi:type="Element" x="2556" y="1200" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-1b58801ac3cb41daa540964ce26de17b" xsi:type="Label" x="2714" y="1389" w="145" h="28">
+            <label xml:lang="en">→ consists of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-a51aee6735ce44428bc6dc5cdace0548" xsi:type="Label" x="2719" y="1412" w="135" h="33">
+            <label xml:lang="en">← is part of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-ea3e74282ffa47eaa07143b5930944d2" xsi:type="Label" x="3744" y="1683" w="127" h="22">
+            <label xml:lang="en">→ consists of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-904135e8ea6847ce9e706cbe2eb9ee45" xsi:type="Label" x="2430" y="1263" w="127" h="22">
+            <label xml:lang="en">→ consists of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-66aaaa34b545480996ff691c2f35f5f0" elementRef="id-1f2e01d154854bdb810d1ef5b5bb756f" xsi:type="Element" x="2148" y="1704" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-0357e611900e43b99c0e010823c5b4fa" elementRef="id-98f502ae1dc147fba93d79ee181be6cf" xsi:type="Element" x="2148" y="1546" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-f29b4dc91f5e4854974de47fbd442a16" xsi:type="Label" x="2359" y="1536" w="145" h="28">
+            <label xml:lang="en">→ belongs to (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-8eca92c4bc9c448d81e8e0d02aa9b1fd" xsi:type="Label" x="2376" y="1555" w="135" h="33">
+            <label xml:lang="en">← has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-3f3d4826b99f49e98951fd7c5c70790f" xsi:type="Label" x="2659" y="1565" w="145" h="28">
+            <label xml:lang="en">→ is part of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-6d4ead170d5544a2b96d175f1dc160d3" xsi:type="Label" x="2676" y="1584" w="135" h="33">
+            <label xml:lang="en">← has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-0cad1ae1b06a436b8b95ae7b803947ce" xsi:type="Label" x="2774" y="1584" w="145" h="28">
+            <label xml:lang="en">→ belongs to (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-9370708e96f8488c9fec5bb2d58d2aed" xsi:type="Label" x="2784" y="1604" w="135" h="33">
+            <label xml:lang="en">← has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-282d254eafd94b31a013596431e712e1" xsi:type="Label" x="2342" y="1704" w="145" h="28">
+            <label xml:lang="en">→ is assigned to (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-0610466b3e614e79bf678af3b985ab45" xsi:type="Label" x="2352" y="1724" w="135" h="33">
+            <label xml:lang="en">← has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-a42a993d4c884a46a967de6105a166b3" xsi:type="Label" x="2486" y="1742" w="145" h="28">
+            <label xml:lang="en">→ is assigned to (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-eb78e9d4b6c74372bc5c7f9f4cd18448" xsi:type="Label" x="2496" y="1762" w="135" h="33">
+            <label xml:lang="en">← has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-0c29705006534292ba9e31fee6d96594" xsi:type="Label" x="2040" y="1512" w="127" h="22">
+            <label xml:lang="en">→ consists of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-1ab0e17906d44fa0b1b3bdd50bcd363d" xsi:type="Label" x="3240" y="1293" w="89" h="28">
+            <label xml:lang="en">→ is (0..1)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-03638c74ea23415bb82227f4a5d6ce38" xsi:type="Label" x="3240" y="1320" w="89" h="33">
+            <label xml:lang="en">← is (1..1)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-be55dde7847b4ff4b9860c5f5e588785" xsi:type="Label" x="2815" y="1210" w="97" h="28">
+            <label xml:lang="en">→ has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-b7d4c77afcd6452c9de779c774a5b06a" xsi:type="Label" x="2796" y="1236" w="135" h="33">
+            <label xml:lang="en">← is part of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-50bb4ddc24c54196acfe595b1948162c" xsi:type="Label" x="3048" y="1356" w="97" h="28">
+            <label xml:lang="en">→ has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-5d1e05dc962a4fc68f6ba0ed4ba1be41" xsi:type="Label" x="3043" y="1380" w="135" h="33">
+            <label xml:lang="en">← is part of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-a6350fabac9942bc8c232bb6989760b2" elementRef="id-f4b77ec47d244db68914129110d65b0c" xsi:type="Element" x="3312" y="1284" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-159548439b954f49a6cc77d1f0f7d9b7" elementRef="id-25c5d97fd1734840942b3b0771420720" xsi:type="Element" x="1656" y="1200" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-14d9866d5e744c1794aca76ac4c3e4fb" elementRef="id-f2c0b9ddec964a5983b04c846f9e6f0d" xsi:type="Element" x="1656" y="1327" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-5220d68bb42d4e82a465d84b9adf5454" xsi:type="Label" x="2111" y="1211" w="97" h="28">
+            <label xml:lang="en">→ is (1..1)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-8f2cdbb16ea34018808368083b539f29" xsi:type="Label" x="2112" y="1238" w="96" h="33">
+            <label xml:lang="en">← is (0..1)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-72fb4c8ef0b64726b0fbf762afddfac5" xsi:type="Label" x="2075" y="1325" w="145" h="28">
+            <label xml:lang="en">→ belongs to (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-fc1a6027858c49e980947508ed19490c" xsi:type="Label" x="2092" y="1344" w="135" h="33">
+            <label xml:lang="en">← has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-1eb3c376784c45919976ea89161fe70d" xsi:type="Label" x="2239" y="1367" w="145" h="28">
+            <label xml:lang="en">→ belongs to (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-0d3bdd891e324b36bc5998c3ce00d171" xsi:type="Label" x="2256" y="1386" w="135" h="33">
+            <label xml:lang="en">← has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-3a7e95006ef04ab19ab216ade73b3e47" xsi:type="Label" x="1788" y="1558" w="145" h="28">
+            <label xml:lang="en">→ consists of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-34c645e14a474461afac8e849722c8da" xsi:type="Label" x="1805" y="1577" w="135" h="33">
+            <label xml:lang="en">← is part of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-6b8985d2873d4f64bf19e5ff94db1b1f" elementRef="id-aecb01410b534c9f8798b2c254d3c94d" xsi:type="Element" x="1968" y="0" w="1909" h="781">
+          <style>
+            <fillColor r="255" g="255" b="255" a="100" />
+            <lineColor r="0" g="0" b="0" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-9f2ef4d0a7914aa396005d20321f93e2" elementRef="id-5f37b6baf3cc4b9ca30c2d76ca120c7d" xsi:type="Element" x="0" y="216" w="1909" h="781">
+          <style>
+            <fillColor r="255" g="255" b="255" a="100" />
+            <lineColor r="0" g="0" b="0" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-2b444764913b47faa1d35d046c43f539" elementRef="id-c64bc44082fb42be8d98330b215d5d30" xsi:type="Element" x="3036" y="960" w="169" h="85">
+          <style>
+            <fillColor r="246" g="239" b="147" a="100" />
+            <lineColor r="0" g="0" b="0" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-72f6ea046a9f4d38a8ed17369077b868" xsi:type="Label" x="48" y="64" w="123" h="49">
+          <style>
+            <fillColor r="255" g="255" b="255" a="100" />
+            <lineColor r="0" g="0" b="0" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <connection identifier="id-87e63e58130d49da86de2f16f8c9884f" relationshipRef="id-3d61919c9c6a4a688e3ca80521152cf2" xsi:type="Relationship" source="id-b3bf484c57f147d184b1386c09b031fc" target="id-b3bf484c57f147d184b1386c09b031fc">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="3732" y="1680" />
+          <bendpoint x="3804" y="1680" />
+          <bendpoint x="3876" y="1680" />
+          <bendpoint x="3876" y="1716" />
+        </connection>
+        <connection identifier="id-435ddfd2b6b045d69437140927ef2e20" relationshipRef="id-0f8701c4a5474cdd8b1676e48929aff8" xsi:type="Relationship" source="id-9f199eef602249138afd73c4aba87cfa" target="id-9f199eef602249138afd73c4aba87cfa">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="3168" y="1548" />
+          <bendpoint x="3168" y="1510" />
+          <bendpoint x="3312" y="1510" />
+        </connection>
+        <connection identifier="id-f71cff7d03774435871156a162abf13f" relationshipRef="id-e359c4bc735546759d831b248cf14c43" xsi:type="Relationship" source="id-68d65af0c1b143048b4b2f1ecbea0195" target="id-9f199eef602249138afd73c4aba87cfa">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="3024" y="1573" />
+        </connection>
+        <connection identifier="id-93bb2750b382477a9546598d9574032f" relationshipRef="id-12e47f7507384f378f81b2244003dfec" xsi:type="Relationship" source="id-68d65af0c1b143048b4b2f1ecbea0195" target="id-b3bf484c57f147d184b1386c09b031fc">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="3024" y="1729" />
+        </connection>
+        <connection identifier="id-4bce80166248423e8cb6fe7a2244d0d0" relationshipRef="id-b9b9212fb9a2466a9211cda7b68650fc" xsi:type="Relationship" source="id-68d65af0c1b143048b4b2f1ecbea0195" target="id-2b444764913b47faa1d35d046c43f539">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="3168" y="1381" />
+        </connection>
+        <connection identifier="id-93b8ae5ffe974f6895947f4ffc799ece" relationshipRef="id-de798bc1e7de42bc96cb011dcd324a11" xsi:type="Relationship" source="id-d21c41fd20e145738b628610a56195e4" target="id-68d65af0c1b143048b4b2f1ecbea0195">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2676" y="1416" />
+        </connection>
+        <connection identifier="id-66885bbed0244d22b2ff22a665e53ac7" relationshipRef="id-32a55dc4ff974712b0bd3c193b670771" xsi:type="Relationship" source="id-d21c41fd20e145738b628610a56195e4" target="id-d21c41fd20e145738b628610a56195e4">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2568" y="1296" />
+          <bendpoint x="2424" y="1296" />
+          <bendpoint x="2424" y="1260" />
+        </connection>
+        <connection identifier="id-283f3defb3884c87984b5673c24169bf" relationshipRef="id-a3153c7e4361475d804543535da754fc" xsi:type="Relationship" source="id-66aaaa34b545480996ff691c2f35f5f0" target="id-d21c41fd20e145738b628610a56195e4">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2640" y="1728" />
+        </connection>
+        <connection identifier="id-c3c1b189252e496c97f2e441c8c92f0a" relationshipRef="id-09372bbb71934bb9b54424d4b4012702" xsi:type="Relationship" source="id-66aaaa34b545480996ff691c2f35f5f0" target="id-68d65af0c1b143048b4b2f1ecbea0195">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2904" y="1764" />
+        </connection>
+        <connection identifier="id-1e4ac26b7302483b9fdeecf60504bb4a" relationshipRef="id-aff45c23f3494f44b30ffead22db015e" xsi:type="Relationship" source="id-0357e611900e43b99c0e010823c5b4fa" target="id-0357e611900e43b99c0e010823c5b4fa">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2040" y="1558" />
+          <bendpoint x="2040" y="1512" />
+          <bendpoint x="2172" y="1512" />
+        </connection>
+        <connection identifier="id-c02c2958aba245f8b3b2f77a23ebdc8e" relationshipRef="id-efeaea5218684e4c823d0a7b6ea8e26f" xsi:type="Relationship" source="id-0357e611900e43b99c0e010823c5b4fa" target="id-d21c41fd20e145738b628610a56195e4">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2616" y="1560" />
+        </connection>
+        <connection identifier="id-78890e53cce6475c81a375534f6d6a99" relationshipRef="id-b9e7831abdfb4fac9b9f336fcad39904" xsi:type="Relationship" source="id-0357e611900e43b99c0e010823c5b4fa" target="id-68d65af0c1b143048b4b2f1ecbea0195">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2880" y="1587" />
+        </connection>
+        <connection identifier="id-5bca43d996924ce492920018f2742c36" relationshipRef="id-c0ab9224d2ff4c87b8460f8403efa087" xsi:type="Relationship" source="id-0357e611900e43b99c0e010823c5b4fa" target="id-9f199eef602249138afd73c4aba87cfa">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2784" y="1608" />
+        </connection>
+        <connection identifier="id-aaa56d7431bf47f982e063d33412044d" relationshipRef="id-54ecae0cadd64906909d7c6a13f79fa3" xsi:type="Relationship" source="id-0357e611900e43b99c0e010823c5b4fa" target="id-b3bf484c57f147d184b1386c09b031fc">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2964" y="1608" />
+          <bendpoint x="2964" y="1764" />
+        </connection>
+        <connection identifier="id-f5d7f1f52ecf4328bbf144649c316e83" relationshipRef="id-bcaf5297eb554decaf8a515c81283ac7" xsi:type="Relationship" source="id-a6350fabac9942bc8c232bb6989760b2" target="id-68d65af0c1b143048b4b2f1ecbea0195">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="3240" y="1321" />
+          <bendpoint x="3240" y="1417" />
+        </connection>
+        <connection identifier="id-5d3f93d5b9f245089bd3f7c2003cc784" relationshipRef="id-e0c1ff5ec579441e97c3f78467e40676" xsi:type="Relationship" source="id-159548439b954f49a6cc77d1f0f7d9b7" target="id-d21c41fd20e145738b628610a56195e4">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-8a19513dec6c4fd4b5c47d23ae5b2b45" relationshipRef="id-7951054280ba4485a80d4e0fdb36dfd8" xsi:type="Relationship" source="id-14d9866d5e744c1794aca76ac4c3e4fb" target="id-d21c41fd20e145738b628610a56195e4">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2592" y="1345" />
+        </connection>
+        <connection identifier="id-a9bcb44a2220404b9832466e86e26ecc" relationshipRef="id-ffb018f0d88a4b3aae2a586ab846a02d" xsi:type="Relationship" source="id-14d9866d5e744c1794aca76ac4c3e4fb" target="id-68d65af0c1b143048b4b2f1ecbea0195">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-00883372453141c684053ed0f3d40423" relationshipRef="id-cd11d8c3bddd4eeab14bce37310e0769" xsi:type="Relationship" source="id-14d9866d5e744c1794aca76ac4c3e4fb" target="id-0357e611900e43b99c0e010823c5b4fa">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="1740" y="1584" />
+        </connection>
+        <connection identifier="id-3c558c055d874fd4b8fcf94a4624a082" relationshipRef="id-64ba88d5c179424b83e8ff3244805dc3" xsi:type="Relationship" source="id-2b444764913b47faa1d35d046c43f539" target="id-d21c41fd20e145738b628610a56195e4">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="3060" y="1237" />
+        </connection>
+      </view>
+      <view identifier="id-b71992b20e164674a9a169d6ed4d3c53" xsi:type="Diagram" viewpoint="Information Structure">
+        <name xml:lang="en">Conceptueel Informatie Model Onderwijs NL</name>
+        <properties>
+          <property propertyDefinitionRef="propid-1">
+            <value xml:lang="en">Conceptueel informatiemodel onderwijs</value>
+          </property>
+        </properties>
+        <node identifier="id-e5922980289249a29bff467a31f349d8" elementRef="id-a27b8ffbe70145c0bf38c259b1158faa" xsi:type="Element" x="1632" y="1176" w="2257" h="637">
+          <style>
+            <fillColor r="141" g="249" b="0" a="6" />
+            <lineColor r="0" g="0" b="0" a="100" />
+            <font name="Lucida Grande" size="12" style="bold">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-4b35069e5d2246e2901cb4b400843a18" elementRef="id-f373d2ec7e4a4c0e8d5cefb3467e2342" xsi:type="Element" x="3576" y="1704" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-a7075df4a6694090824adf7311106b20" xsi:type="Label" x="3451" y="1704" w="97" h="28">
+            <label xml:lang="en">→ has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-795724f968274d1aaba89ff4357e08db" xsi:type="Label" x="3432" y="1730" w="135" h="33">
+            <label xml:lang="en">← is part of (1..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-5f069402729a46d8aa77eeddc0c8a619" elementRef="id-190c4f52b63f466e8f039cffd98ea261" xsi:type="Element" x="3264" y="1536" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-c17dce9c11134e97bb52b01e2e633bca" elementRef="id-b44b208c2bd343b293c608ee6663e3d6" xsi:type="Element" x="2868" y="1368" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-fa2e2807ecd44ff2bc52e1cf5cf210ff" xsi:type="Label" x="3139" y="1546" w="97" h="28">
+            <label xml:lang="en">→ has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-57557b6ffc7f479a80538987c6d17480" xsi:type="Label" x="3120" y="1572" w="135" h="33">
+            <label xml:lang="en">← is part of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-58f517b34e644291870632d5b51d3cfe" xsi:type="Label" x="3168" y="1512" w="127" h="22">
+            <label xml:lang="en">→ consists of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-f88ac6bd783940549c685b4a2c4654f5" elementRef="id-8c15f665c7644dd58cfcf807a8babc76" xsi:type="Element" x="2556" y="1200" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-ed77820217db4345bd0e861efa9ec025" xsi:type="Label" x="2714" y="1389" w="145" h="28">
+            <label xml:lang="en">→ consists of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-448ffe8e93cd4635ac8afa807c2fc12e" xsi:type="Label" x="2719" y="1412" w="135" h="33">
+            <label xml:lang="en">← is part of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-cadb7bd6104c4301961f9661c158e577" xsi:type="Label" x="3744" y="1683" w="127" h="22">
+            <label xml:lang="en">→ consists of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-de7ed0fb92ef49cfb02a5a2134636c7d" xsi:type="Label" x="2430" y="1263" w="127" h="22">
+            <label xml:lang="en">→ consists of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-45f2bfc47c81482199edcf28108a8686" elementRef="id-1f2e01d154854bdb810d1ef5b5bb756f" xsi:type="Element" x="2148" y="1704" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-3104c30bbb9346a9ae798cbbf34a3c9f" elementRef="id-98f502ae1dc147fba93d79ee181be6cf" xsi:type="Element" x="2148" y="1546" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-a7dff4f07d824660a44dfc60857b58e9" xsi:type="Label" x="2359" y="1536" w="145" h="28">
+            <label xml:lang="en">→ belongs to (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-d10f01e986ac4ce1aedc37a7febee907" xsi:type="Label" x="2376" y="1555" w="135" h="33">
+            <label xml:lang="en">← has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-2f7094cd7678470a9a00a541780191ea" xsi:type="Label" x="2659" y="1565" w="145" h="28">
+            <label xml:lang="en">→ is part of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-992c7600f37746c0b095e5360aeaa0cc" xsi:type="Label" x="2676" y="1584" w="135" h="33">
+            <label xml:lang="en">← has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-d4a36f8555bd4e008e83bd60ea1ef0bc" xsi:type="Label" x="2774" y="1584" w="145" h="28">
+            <label xml:lang="en">→ belongs to (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-111b9683e5784228b640b5454727c15b" xsi:type="Label" x="2784" y="1604" w="135" h="33">
+            <label xml:lang="en">← has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-72196f3a2f3a4988827de63ae3ccce98" xsi:type="Label" x="2342" y="1704" w="145" h="28">
+            <label xml:lang="en">→ is assigned to (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-172397ba2827432080116eb1ebf13775" xsi:type="Label" x="2352" y="1724" w="135" h="33">
+            <label xml:lang="en">← has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-7f3f56752999470b95bfc62124cd2f5b" xsi:type="Label" x="2486" y="1742" w="145" h="28">
+            <label xml:lang="en">→ is assigned to (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-e77052dd8ac1459891119737415b668b" xsi:type="Label" x="2496" y="1762" w="135" h="33">
+            <label xml:lang="en">← has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-038dc693b6fd43f0b6eefad0c7570c4b" xsi:type="Label" x="2040" y="1512" w="127" h="22">
+            <label xml:lang="en">→ consists of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-6ab6ea88ba8e4e35ba8587e2af2521e8" xsi:type="Label" x="3240" y="1293" w="89" h="28">
+            <label xml:lang="en">→ is (0..1)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-0cf9c4fec36041b1bc25d494b82c4f2c" xsi:type="Label" x="3240" y="1320" w="89" h="33">
+            <label xml:lang="en">← is (1..1)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-8884576088854b8bac5e804c26bf8494" xsi:type="Label" x="2815" y="1210" w="97" h="28">
+            <label xml:lang="en">→ has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-525d5df44a4a4f7ba42783498769622f" xsi:type="Label" x="2796" y="1236" w="135" h="33">
+            <label xml:lang="en">← is part of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-06c9016941544af1a7986258ab86111b" xsi:type="Label" x="3048" y="1356" w="97" h="28">
+            <label xml:lang="en">→ has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-80774729675e49c6b5ddbf76771e2589" xsi:type="Label" x="3043" y="1380" w="135" h="33">
+            <label xml:lang="en">← is part of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-dae41bf5bf7a4757b0cbd04c1083cc50" elementRef="id-f4b77ec47d244db68914129110d65b0c" xsi:type="Element" x="3312" y="1284" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-79e0c36a1095484cb606dc6150abd090" elementRef="id-25c5d97fd1734840942b3b0771420720" xsi:type="Element" x="1656" y="1200" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-77940bd51d354bc8a2a75acd3faf49f7" elementRef="id-f2c0b9ddec964a5983b04c846f9e6f0d" xsi:type="Element" x="1656" y="1327" w="169" h="85">
+            <style>
+              <fillColor r="246" g="239" b="147" a="100" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-dea1d639337c4e3691d9fa3172c03320" xsi:type="Label" x="2111" y="1211" w="97" h="28">
+            <label xml:lang="en">→ is (1..1)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-26f756717c5a40fba92fba4bab25639b" xsi:type="Label" x="2112" y="1238" w="96" h="33">
+            <label xml:lang="en">← is (0..1)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-24a5ded4501c474f983f20ca71711de2" xsi:type="Label" x="2075" y="1325" w="145" h="28">
+            <label xml:lang="en">→ belongs to (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-f97d22051dcd45989371cfed6b10f4d6" xsi:type="Label" x="2092" y="1344" w="135" h="33">
+            <label xml:lang="en">← has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-14d491ed4ce74371b0120de8f14da8ed" xsi:type="Label" x="2239" y="1367" w="145" h="28">
+            <label xml:lang="en">→ belongs to (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-d3f8047c2e444a11bd10c79b785fa6f6" xsi:type="Label" x="2256" y="1386" w="135" h="33">
+            <label xml:lang="en">← has (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-74321be61cd043569a627b86f9b4058b" xsi:type="Label" x="1800" y="1558" w="145" h="28">
+            <label xml:lang="en">→ consists of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-49f07b47510d495aa0b22da580c2113c" xsi:type="Label" x="1805" y="1577" w="135" h="33">
+            <label xml:lang="en">← is part of (0..n)</label>
+            <style>
+              <fillColor r="255" g="255" b="255" a="0" />
+              <lineColor r="0" g="0" b="0" a="100" />
+              <font name="Lucida Grande" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-5c5a070802924efdae9b390d0f007295" elementRef="id-aecb01410b534c9f8798b2c254d3c94d" xsi:type="Element" x="1968" y="0" w="1909" h="781">
+          <style>
+            <fillColor r="255" g="255" b="255" a="100" />
+            <lineColor r="0" g="0" b="0" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-b614197838ae4957935d071808eea31b" elementRef="id-5f37b6baf3cc4b9ca30c2d76ca120c7d" xsi:type="Element" x="0" y="216" w="1909" h="781">
+          <style>
+            <fillColor r="255" g="255" b="255" a="100" />
+            <lineColor r="0" g="0" b="0" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-665d1649a33641b5896d590012523828" elementRef="id-c64bc44082fb42be8d98330b215d5d30" xsi:type="Element" x="3036" y="960" w="169" h="85">
+          <style>
+            <fillColor r="246" g="239" b="147" a="100" />
+            <lineColor r="0" g="0" b="0" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-ff8d4d2f281e4505b09262eec5010312" xsi:type="Label" x="31" y="48" w="123" h="49">
+          <style>
+            <fillColor r="255" g="255" b="255" a="100" />
+            <lineColor r="0" g="0" b="0" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <connection identifier="id-8eb30c32a9fe4cd39e2b30c54b5bb4e3" relationshipRef="id-3d61919c9c6a4a688e3ca80521152cf2" xsi:type="Relationship" source="id-4b35069e5d2246e2901cb4b400843a18" target="id-4b35069e5d2246e2901cb4b400843a18">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="3732" y="1680" />
+          <bendpoint x="3804" y="1680" />
+          <bendpoint x="3876" y="1680" />
+          <bendpoint x="3876" y="1716" />
+        </connection>
+        <connection identifier="id-19deee380c264850b113c20dd635964d" relationshipRef="id-0f8701c4a5474cdd8b1676e48929aff8" xsi:type="Relationship" source="id-5f069402729a46d8aa77eeddc0c8a619" target="id-5f069402729a46d8aa77eeddc0c8a619">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="3168" y="1548" />
+          <bendpoint x="3168" y="1510" />
+          <bendpoint x="3312" y="1510" />
+        </connection>
+        <connection identifier="id-2bc0d383e9774a438e4bdcc53304953d" relationshipRef="id-e359c4bc735546759d831b248cf14c43" xsi:type="Relationship" source="id-c17dce9c11134e97bb52b01e2e633bca" target="id-5f069402729a46d8aa77eeddc0c8a619">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="3024" y="1573" />
+        </connection>
+        <connection identifier="id-99da205fa3f24ac29293cf5fb4174c14" relationshipRef="id-12e47f7507384f378f81b2244003dfec" xsi:type="Relationship" source="id-c17dce9c11134e97bb52b01e2e633bca" target="id-4b35069e5d2246e2901cb4b400843a18">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="3024" y="1729" />
+        </connection>
+        <connection identifier="id-78e36e46f410409d8676c671f05702a9" relationshipRef="id-b9b9212fb9a2466a9211cda7b68650fc" xsi:type="Relationship" source="id-c17dce9c11134e97bb52b01e2e633bca" target="id-665d1649a33641b5896d590012523828">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="3168" y="1381" />
+        </connection>
+        <connection identifier="id-74facc18d1e9408e9fd46df3be62417b" relationshipRef="id-de798bc1e7de42bc96cb011dcd324a11" xsi:type="Relationship" source="id-f88ac6bd783940549c685b4a2c4654f5" target="id-c17dce9c11134e97bb52b01e2e633bca">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2676" y="1416" />
+        </connection>
+        <connection identifier="id-b4088d169f2c48dc95a925760f8e15f4" relationshipRef="id-32a55dc4ff974712b0bd3c193b670771" xsi:type="Relationship" source="id-f88ac6bd783940549c685b4a2c4654f5" target="id-f88ac6bd783940549c685b4a2c4654f5">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2568" y="1296" />
+          <bendpoint x="2424" y="1296" />
+          <bendpoint x="2424" y="1260" />
+        </connection>
+        <connection identifier="id-fa3dc483576347c386ea690ed6c9f933" relationshipRef="id-a3153c7e4361475d804543535da754fc" xsi:type="Relationship" source="id-45f2bfc47c81482199edcf28108a8686" target="id-f88ac6bd783940549c685b4a2c4654f5">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2640" y="1728" />
+        </connection>
+        <connection identifier="id-47fa12c23f004b6bb7510a1f3bccbe68" relationshipRef="id-09372bbb71934bb9b54424d4b4012702" xsi:type="Relationship" source="id-45f2bfc47c81482199edcf28108a8686" target="id-c17dce9c11134e97bb52b01e2e633bca">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2904" y="1764" />
+        </connection>
+        <connection identifier="id-6cc4729cd4a347c5b78548644e1e6af4" relationshipRef="id-aff45c23f3494f44b30ffead22db015e" xsi:type="Relationship" source="id-3104c30bbb9346a9ae798cbbf34a3c9f" target="id-3104c30bbb9346a9ae798cbbf34a3c9f">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2040" y="1558" />
+          <bendpoint x="2040" y="1512" />
+          <bendpoint x="2172" y="1512" />
+        </connection>
+        <connection identifier="id-1394123bbb9941cc9cccb7edbf4fd2f2" relationshipRef="id-efeaea5218684e4c823d0a7b6ea8e26f" xsi:type="Relationship" source="id-3104c30bbb9346a9ae798cbbf34a3c9f" target="id-f88ac6bd783940549c685b4a2c4654f5">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2616" y="1560" />
+        </connection>
+        <connection identifier="id-d2455a7f390a4d58ba3d9500fb73ada8" relationshipRef="id-b9e7831abdfb4fac9b9f336fcad39904" xsi:type="Relationship" source="id-3104c30bbb9346a9ae798cbbf34a3c9f" target="id-c17dce9c11134e97bb52b01e2e633bca">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2880" y="1587" />
+        </connection>
+        <connection identifier="id-3f78fd3703de47ccb60c4012196ea0e8" relationshipRef="id-c0ab9224d2ff4c87b8460f8403efa087" xsi:type="Relationship" source="id-3104c30bbb9346a9ae798cbbf34a3c9f" target="id-5f069402729a46d8aa77eeddc0c8a619">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2784" y="1608" />
+        </connection>
+        <connection identifier="id-54b419b483554ae691a6cf1ccf3ff24c" relationshipRef="id-54ecae0cadd64906909d7c6a13f79fa3" xsi:type="Relationship" source="id-3104c30bbb9346a9ae798cbbf34a3c9f" target="id-4b35069e5d2246e2901cb4b400843a18">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2964" y="1608" />
+          <bendpoint x="2964" y="1764" />
+        </connection>
+        <connection identifier="id-492479f7bab44c6a91c816b9d6999dd7" relationshipRef="id-bcaf5297eb554decaf8a515c81283ac7" xsi:type="Relationship" source="id-dae41bf5bf7a4757b0cbd04c1083cc50" target="id-c17dce9c11134e97bb52b01e2e633bca">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="3240" y="1321" />
+          <bendpoint x="3240" y="1417" />
+        </connection>
+        <connection identifier="id-800b6663b10642c7926a358190b00689" relationshipRef="id-e0c1ff5ec579441e97c3f78467e40676" xsi:type="Relationship" source="id-79e0c36a1095484cb606dc6150abd090" target="id-f88ac6bd783940549c685b4a2c4654f5">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-04cfaaf65b904656982a9ea71893069f" relationshipRef="id-7951054280ba4485a80d4e0fdb36dfd8" xsi:type="Relationship" source="id-77940bd51d354bc8a2a75acd3faf49f7" target="id-f88ac6bd783940549c685b4a2c4654f5">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="2592" y="1345" />
+        </connection>
+        <connection identifier="id-7c76f9d06ec440afa5968234d73aeba5" relationshipRef="id-ffb018f0d88a4b3aae2a586ab846a02d" xsi:type="Relationship" source="id-77940bd51d354bc8a2a75acd3faf49f7" target="id-c17dce9c11134e97bb52b01e2e633bca">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-1dc3c883c23b4b57909f8c0972545dbd" relationshipRef="id-cd11d8c3bddd4eeab14bce37310e0769" xsi:type="Relationship" source="id-77940bd51d354bc8a2a75acd3faf49f7" target="id-3104c30bbb9346a9ae798cbbf34a3c9f">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="1740" y="1584" />
+        </connection>
+        <connection identifier="id-28c2226ab20140ea84ee17e4d6a892b6" relationshipRef="id-64ba88d5c179424b83e8ff3244805dc3" xsi:type="Relationship" source="id-665d1649a33641b5896d590012523828" target="id-f88ac6bd783940549c685b4a2c4654f5">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="3060" y="1237" />
+        </connection>
+      </view>
+    </diagrams>
+  </views>
+</model>
