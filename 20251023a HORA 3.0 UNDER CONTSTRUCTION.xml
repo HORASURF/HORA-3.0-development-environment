@@ -71,28 +71,6 @@ NL: Een waardestroom is de reeks acties die plaatsvinden om incrementeel waarde 
         </property>
       </properties>
     </element>
-    <element identifier="id-56ee58eb9bc04cd5ac4c4259e52b582c" xsi:type="BusinessObject">
-      <name xml:lang="en">Classification item</name>
-      <documentation xml:lang="en">EN: A component of a classification, in the form of, for example, a concept, requirement, value, learning outcome or keyword, that can be assigned to a programme or course.
-
-NL: Een onderdeel van een classificatie, in de vorm van bijvoorbeeld een begrip, eis, waarde, leeruitkomst of trefwoord, dat aan een programma of onderwijseenheid toegekend kan worden.</documentation>
-      <properties>
-        <property propertyDefinitionRef="propid-3">
-          <value xml:lang="en">Classificatieonderdeel</value>
-        </property>
-      </properties>
-    </element>
-    <element identifier="id-8358c3b87845402497df240786393833" xsi:type="BusinessObject">
-      <name xml:lang="en">Classification</name>
-      <documentation xml:lang="en">EN: A system of concepts, requirements, values, learning outcomes or keywords that can be used to describe programmes and courses.
-
-NL: Een stelsel van begrippen, eisen, waarden, leeruitkomsten of trefwoorden waarmee programma's en onderwijseenheden kunnen worden beschreven.</documentation>
-      <properties>
-        <property propertyDefinitionRef="propid-3">
-          <value xml:lang="en">Classificatie</value>
-        </property>
-      </properties>
-    </element>
     <element identifier="id-4de7293193df4129988d69a0bdf235c7" xsi:type="BusinessEvent">
       <name xml:lang="en">Business event</name>
       <documentation xml:lang="en">EN: A business event represents a business-related state change (The Open Group, 2022).
@@ -582,6 +560,28 @@ NL: Een onderwijseenheid zonder leer- en toetsonderdelen die wordt gespecificeer
         </property>
       </properties>
     </element>
+    <element identifier="id-8358c3b87845402497df240786393833" xsi:type="BusinessObject">
+      <name xml:lang="en">Classification</name>
+      <documentation xml:lang="en">EN: A system of concepts, requirements, values, learning outcomes or keywords that can be used to describe programmes and courses.
+
+NL: Een stelsel van begrippen, eisen, waarden, leeruitkomsten of trefwoorden waarmee programma's en onderwijseenheden kunnen worden beschreven.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">Classificatie</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-56ee58eb9bc04cd5ac4c4259e52b582c" xsi:type="BusinessObject">
+      <name xml:lang="en">Classification item</name>
+      <documentation xml:lang="en">EN: A component of a classification, in the form of, for example, a concept, requirement, value, learning outcome or keyword, that can be assigned to a programme or course.
+
+NL: Een onderdeel van een classificatie, in de vorm van bijvoorbeeld een begrip, eis, waarde, leeruitkomst of trefwoord, dat aan een programma of onderwijseenheid toegekend kan worden.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">Classificatieonderdeel</value>
+        </property>
+      </properties>
+    </element>
     <element identifier="id-004591abc13d4364969a31c9f9969e5e" xsi:type="ApplicationComponent">
       <name xml:lang="en">Application component</name>
       <documentation xml:lang="en">EN: NL: A reference application component represents a logical encapsulation of application functionality that is aligned with the implementation structure, that is modular and replaceable, and that provides one or more application services (The members of the Business Architecture proposition team of Novius, 2020; Stoop, Staffhorst, Bekker, &amp; Hobma, 2016; Bayens &amp; Tönissen, 2015; The Open Group, 2022).
@@ -1016,27 +1016,11 @@ NL: Een standaard is een bewezen herbruikbaar middel voor de implementatie van I
         </property>
       </properties>
     </element>
-    <element identifier="id-aecb01410b534c9f8798b2c254d3c94d" xsi:type="Grouping">
-      <name xml:lang="en">Education offerings</name>
-      <properties>
-        <property propertyDefinitionRef="propid-3">
-          <value xml:lang="en">Onderwijsaanbod</value>
-        </property>
-      </properties>
-    </element>
     <element identifier="id-a27b8ffbe70145c0bf38c259b1158faa" xsi:type="Grouping">
       <name xml:lang="en">Education specification</name>
       <properties>
         <property propertyDefinitionRef="propid-3">
           <value xml:lang="en">Onderwijsspecificatie</value>
-        </property>
-      </properties>
-    </element>
-    <element identifier="id-5f37b6baf3cc4b9ca30c2d76ca120c7d" xsi:type="Grouping">
-      <name xml:lang="en">Offering association</name>
-      <properties>
-        <property propertyDefinitionRef="propid-3">
-          <value xml:lang="en">Onderwijsverbintenis</value>
         </property>
       </properties>
     </element>
@@ -1077,7 +1061,11 @@ NL: Een classificatie kan betrekking hebben op een onderwijseenheid.</documentat
 
 NL: Een classificatie kan betrekking hebben op een programma.</documentation>
     </relationship>
-    <relationship identifier="id-665eee20e77d4fe9a030e373a5b0375b" source="id-98f502ae1dc147fba93d79ee181be6cf" target="id-f4b77ec47d244db68914129110d65b0c" xsi:type="Association" />
+    <relationship identifier="id-665eee20e77d4fe9a030e373a5b0375b" source="id-98f502ae1dc147fba93d79ee181be6cf" target="id-f4b77ec47d244db68914129110d65b0c" xsi:type="Association">
+      <documentation xml:lang="en">EN: A unit of learning outcomes always has at least one learning outcome.
+
+NL: Een eenheid van leeruitkomsten heeft altijd minimaal één leeruitkomst.</documentation>
+    </relationship>
     <relationship identifier="id-12e47f7507384f378f81b2244003dfec" source="id-b44b208c2bd343b293c608ee6663e3d6" target="id-f373d2ec7e4a4c0e8d5cefb3467e2342" xsi:type="Association">
       <documentation xml:lang="en">EN: A course does not have to contain an assessment component, but an assessment component must belong to at least one course.
 An assessment component (specification) is always related to a course (specification): an assessment always has a reference point in the form of a course: what is being taught (the learning component specification) and/or learning outcomes; elements are related to each other within the course.
@@ -1353,6 +1341,8 @@ NL: Een toelatingseis kan zijn beschreven in de vorm van leeruitkomsten.</docume
           <item identifierRef="id-8c15f665c7644dd58cfcf807a8babc76" />
           <item identifierRef="id-fc3fa6fe62e2492d9d20bbde3f356dfc" />
           <item identifierRef="id-f4b77ec47d244db68914129110d65b0c" />
+          <item identifierRef="id-8358c3b87845402497df240786393833" />
+          <item identifierRef="id-56ee58eb9bc04cd5ac4c4259e52b582c" />
         </item>
       </item>
       <item>
@@ -1361,8 +1351,6 @@ NL: Een toelatingseis kan zijn beschreven in de vorm van leeruitkomsten.</docume
       <item>
         <label xml:lang="en">03. Strategy, governance &amp; business operations</label>
       </item>
-      <item identifierRef="id-56ee58eb9bc04cd5ac4c4259e52b582c" />
-      <item identifierRef="id-8358c3b87845402497df240786393833" />
     </item>
     <item>
       <label xml:lang="en">Application</label>
@@ -1439,9 +1427,7 @@ NL: Een toelatingseis kan zijn beschreven in de vorm van leeruitkomsten.</docume
       </item>
       <item>
         <label xml:lang="en">02. Education</label>
-        <item identifierRef="id-aecb01410b534c9f8798b2c254d3c94d" />
         <item identifierRef="id-a27b8ffbe70145c0bf38c259b1158faa" />
-        <item identifierRef="id-5f37b6baf3cc4b9ca30c2d76ca120c7d" />
       </item>
       <item>
         <label xml:lang="en">03. Research &amp; Valorisation</label>
